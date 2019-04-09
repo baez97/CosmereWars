@@ -7,6 +7,7 @@ using System;
 
 public class UpdateHUD : MonoBehaviour
 {
+    int count = 3;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,14 +21,15 @@ public class UpdateHUD : MonoBehaviour
     }
 
     public void FailedShoot(Text lifes) {
-        int count = Int32.Parse(lifes.ToString());
         count-=1;
 
         if (count <= 0) {
             lifes.text = "GAME OVER";
+            Debug.Log("Game Over");
         }
         else {
             lifes.text = "" + count;
+            Debug.Log("Dead man");
         }
     }
 }
