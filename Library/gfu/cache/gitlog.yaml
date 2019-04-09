@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2019-04-09T12:58:07.654+02:00
+  initializedAtString: 2019-04-09T12:54:47.687+02:00
+  log:
+  - commitID: 267f5f328ffc150af673325a64417e185101cf7d
+    mergeA: 
+    mergeB: 
+    authorName: "Jos\xE9 Manuel B\xE1ez"
+    authorEmail: baezsoriano97@gmail.com
+    commitEmail: baezsoriano97@gmail.com
+    commitName: "Jos\xE9 Manuel B\xE1ez"
+    summary: first commit
+    description: 
+    timeString: 2019-04-08T17:22:17.000+02:00
+    commitTimeString: 2019-04-08T17:22:17.000+02:00
+    changes:
+    - path: README.md
+      fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\README.md
+      projectPath: README.md
+      originalPath: 
+      status: 4
+      staged: 0
