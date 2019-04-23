@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpellsCamera : MonoBehaviour
 {
-    public Camera mainCamera;
+    public GameObject mainCamera;
     // Start is called before the first frame update
     void Start()
     {

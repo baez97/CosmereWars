@@ -54,7 +54,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AppleCollisionEvent.cs" />
-     <Compile Include="Assets\DoorController.cs" />
      <Compile Include="Assets\Low Poly Fruits\resources\fruits_tester.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
@@ -110,15 +109,6 @@
      <Compile Include="Assets\Scripts\Shooting.cs" />
      <Compile Include="Assets\Scripts\UpdateHUD.cs" />
      <Compile Include="Assets\SpellsCamera.cs" />
-     <Compile Include="Assets\UnityVRUI\Utils\Reticle.cs" />
-     <Compile Include="Assets\UnityVRUI\Utils\UIMovement.cs" />
-     <Compile Include="Assets\UnityVRUI\Utils\VRCameraUI.cs" />
-     <Compile Include="Assets\UnityVRUI\VRStandardAssets\Scripts\VRDeviceManager.cs" />
-     <Compile Include="Assets\UnityVRUI\VRStandardAssets\Scripts\VREyeRaycaster.cs" />
-     <Compile Include="Assets\UnityVRUI\VRStandardAssets\Scripts\VRFPSCounter.cs" />
-     <Compile Include="Assets\UnityVRUI\VRStandardAssets\Scripts\VRInput.cs" />
-     <Compile Include="Assets\UnityVRUI\VRStandardAssets\Scripts\VRInteractiveItem.cs" />
-     <Compile Include="Assets\UnityVRUI\VRStandardAssets\Scripts\VRTrackingReset.cs" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-04-09T17:08:58.947+02:00
-  initializedAtString: 2019-04-09T16:12:00.473+02:00
+  lastUpdatedAtString: 2019-04-23T17:07:25.450+02:00
+  initializedAtString: 2019-04-23T15:17:23.609+02:00
   entries:
   - path: Assembly-CSharp.csproj
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assembly-CSharp.csproj
@@ -22,17 +22,377 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assembly-CSharp-Editor.csproj
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assembly-CSharp-Editor.csproj
-    projectPath: Assembly-CSharp-Editor.csproj
+  - path: Assets\DoorController.cs
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\DoorController.cs
+    projectPath: Assets\DoorController.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\DoorController.cs.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\DoorController.cs.meta
+    projectPath: Assets\DoorController.cs.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\PDollar\Scripts\Spells.cs
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\PDollar\Scripts\Spells.cs
+    projectPath: Assets\PDollar\Scripts\Spells.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+  - path: Assets\Scenes\BernardoMG.unity
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\Scenes\BernardoMG.unity
+    projectPath: Assets\Scenes\BernardoMG.unity
     originalPath: 
     status: 3
+    staged: 0
+  - path: Assets\Scenes\Elantris.unity
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\Scenes\Elantris.unity
+    projectPath: Assets\Scenes\Elantris.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\UpdateHUD.cs
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\Scripts\UpdateHUD.cs
+    projectPath: Assets\Scripts\UpdateHUD.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\SpellsCamera.cs
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\SpellsCamera.cs
+    projectPath: Assets\SpellsCamera.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\UnityVRUI.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI.meta
+    projectPath: Assets\UnityVRUI.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI.meta
+    projectPath: Assets\UnityVRUI\GUI.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIArrows.tif
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIArrows.tif
+    projectPath: Assets\UnityVRUI\GUI\GUIArrows.tif
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIArrows.tif.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIArrows.tif.meta
+    projectPath: Assets\UnityVRUI\GUI\GUIArrows.tif.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIBlankMarker.tif
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIBlankMarker.tif
+    projectPath: Assets\UnityVRUI\GUI\GUIBlankMarker.tif
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIBlankMarker.tif.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIBlankMarker.tif.meta
+    projectPath: Assets\UnityVRUI\GUI\GUIBlankMarker.tif.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUICircleIndicator.tif
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUICircleIndicator.tif
+    projectPath: Assets\UnityVRUI\GUI\GUICircleIndicator.tif
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUICircleIndicator.tif.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUICircleIndicator.tif.meta
+    projectPath: Assets\UnityVRUI\GUI\GUICircleIndicator.tif.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIExitMarker.tif
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIExitMarker.tif
+    projectPath: Assets\UnityVRUI\GUI\GUIExitMarker.tif
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIExitMarker.tif.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIExitMarker.tif.meta
+    projectPath: Assets\UnityVRUI\GUI\GUIExitMarker.tif.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIHealth.tif
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIHealth.tif
+    projectPath: Assets\UnityVRUI\GUI\GUIHealth.tif
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIHealth.tif.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIHealth.tif.meta
+    projectPath: Assets\UnityVRUI\GUI\GUIHealth.tif.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIInteractionMarker.tif
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIInteractionMarker.tif
+    projectPath: Assets\UnityVRUI\GUI\GUIInteractionMarker.tif
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIInteractionMarker.tif.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIInteractionMarker.tif.meta
+    projectPath: Assets\UnityVRUI\GUI\GUIInteractionMarker.tif.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUILogo.tif
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUILogo.tif
+    projectPath: Assets\UnityVRUI\GUI\GUILogo.tif
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUILogo.tif.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUILogo.tif.meta
+    projectPath: Assets\UnityVRUI\GUI\GUILogo.tif.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUINavigationMarker.tif
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUINavigationMarker.tif
+    projectPath: Assets\UnityVRUI\GUI\GUINavigationMarker.tif
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUINavigationMarker.tif.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUINavigationMarker.tif.meta
+    projectPath: Assets\UnityVRUI\GUI\GUINavigationMarker.tif.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIPowerMarker.tif
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIPowerMarker.tif
+    projectPath: Assets\UnityVRUI\GUI\GUIPowerMarker.tif
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIPowerMarker.tif.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIPowerMarker.tif.meta
+    projectPath: Assets\UnityVRUI\GUI\GUIPowerMarker.tif.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIReticle.tif
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIReticle.tif
+    projectPath: Assets\UnityVRUI\GUI\GUIReticle.tif
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIReticle.tif.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIReticle.tif.meta
+    projectPath: Assets\UnityVRUI\GUI\GUIReticle.tif.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIReticleSwatch.tif
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIReticleSwatch.tif
+    projectPath: Assets\UnityVRUI\GUI\GUIReticleSwatch.tif
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIReticleSwatch.tif.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIReticleSwatch.tif.meta
+    projectPath: Assets\UnityVRUI\GUI\GUIReticleSwatch.tif.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIStartMarker.tif
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIStartMarker.tif
+    projectPath: Assets\UnityVRUI\GUI\GUIStartMarker.tif
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUIStartMarker.tif.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUIStartMarker.tif.meta
+    projectPath: Assets\UnityVRUI\GUI\GUIStartMarker.tif.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUITargetReticle.tif
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUITargetReticle.tif
+    projectPath: Assets\UnityVRUI\GUI\GUITargetReticle.tif
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUITargetReticle.tif.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUITargetReticle.tif.meta
+    projectPath: Assets\UnityVRUI\GUI\GUITargetReticle.tif.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUITimer.tif
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUITimer.tif
+    projectPath: Assets\UnityVRUI\GUI\GUITimer.tif
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUITimer.tif.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUITimer.tif.meta
+    projectPath: Assets\UnityVRUI\GUI\GUITimer.tif.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUITurretMarker.tif
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUITurretMarker.tif
+    projectPath: Assets\UnityVRUI\GUI\GUITurretMarker.tif
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\GUITurretMarker.tif.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\GUITurretMarker.tif.meta
+    projectPath: Assets\UnityVRUI\GUI\GUITurretMarker.tif.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\VRIcon.png
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\VRIcon.png
+    projectPath: Assets\UnityVRUI\GUI\VRIcon.png
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\GUI\VRIcon.png.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\GUI\VRIcon.png.meta
+    projectPath: Assets\UnityVRUI\GUI\VRIcon.png.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\Utils.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\Utils.meta
+    projectPath: Assets\UnityVRUI\Utils.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\Utils\Reticle.cs
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\Utils\Reticle.cs
+    projectPath: Assets\UnityVRUI\Utils\Reticle.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\Utils\Reticle.cs.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\Utils\Reticle.cs.meta
+    projectPath: Assets\UnityVRUI\Utils\Reticle.cs.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\Utils\UIMovement.cs
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\Utils\UIMovement.cs
+    projectPath: Assets\UnityVRUI\Utils\UIMovement.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\Utils\UIMovement.cs.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\Utils\UIMovement.cs.meta
+    projectPath: Assets\UnityVRUI\Utils\UIMovement.cs.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\Utils\VRCameraUI.cs
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\Utils\VRCameraUI.cs
+    projectPath: Assets\UnityVRUI\Utils\VRCameraUI.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\Utils\VRCameraUI.cs.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\Utils\VRCameraUI.cs.meta
+    projectPath: Assets\UnityVRUI\Utils\VRCameraUI.cs.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\VRStandardAssets.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\VRStandardAssets.meta
+    projectPath: Assets\UnityVRUI\VRStandardAssets.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\VRStandardAssets\Scripts.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\VRStandardAssets\Scripts.meta
+    projectPath: Assets\UnityVRUI\VRStandardAssets\Scripts.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\VRStandardAssets\Scripts\VRDeviceManager.cs
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\VRStandardAssets\Scripts\VRDeviceManager.cs
+    projectPath: Assets\UnityVRUI\VRStandardAssets\Scripts\VRDeviceManager.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\VRStandardAssets\Scripts\VRDeviceManager.cs.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\VRStandardAssets\Scripts\VRDeviceManager.cs.meta
+    projectPath: Assets\UnityVRUI\VRStandardAssets\Scripts\VRDeviceManager.cs.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\VRStandardAssets\Scripts\VREyeRaycaster.cs
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\VRStandardAssets\Scripts\VREyeRaycaster.cs
+    projectPath: Assets\UnityVRUI\VRStandardAssets\Scripts\VREyeRaycaster.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\VRStandardAssets\Scripts\VREyeRaycaster.cs.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\VRStandardAssets\Scripts\VREyeRaycaster.cs.meta
+    projectPath: Assets\UnityVRUI\VRStandardAssets\Scripts\VREyeRaycaster.cs.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\VRStandardAssets\Scripts\VRFPSCounter.cs
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\VRStandardAssets\Scripts\VRFPSCounter.cs
+    projectPath: Assets\UnityVRUI\VRStandardAssets\Scripts\VRFPSCounter.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\VRStandardAssets\Scripts\VRFPSCounter.cs.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\VRStandardAssets\Scripts\VRFPSCounter.cs.meta
+    projectPath: Assets\UnityVRUI\VRStandardAssets\Scripts\VRFPSCounter.cs.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\VRStandardAssets\Scripts\VRInput.cs
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\VRStandardAssets\Scripts\VRInput.cs
+    projectPath: Assets\UnityVRUI\VRStandardAssets\Scripts\VRInput.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\VRStandardAssets\Scripts\VRInput.cs.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\VRStandardAssets\Scripts\VRInput.cs.meta
+    projectPath: Assets\UnityVRUI\VRStandardAssets\Scripts\VRInput.cs.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\VRStandardAssets\Scripts\VRInteractiveItem.cs
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\VRStandardAssets\Scripts\VRInteractiveItem.cs
+    projectPath: Assets\UnityVRUI\VRStandardAssets\Scripts\VRInteractiveItem.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\VRStandardAssets\Scripts\VRInteractiveItem.cs.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\VRStandardAssets\Scripts\VRInteractiveItem.cs.meta
+    projectPath: Assets\UnityVRUI\VRStandardAssets\Scripts\VRInteractiveItem.cs.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\VRStandardAssets\Scripts\VRTrackingReset.cs
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\VRStandardAssets\Scripts\VRTrackingReset.cs
+    projectPath: Assets\UnityVRUI\VRStandardAssets\Scripts\VRTrackingReset.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\UnityVRUI\VRStandardAssets\Scripts\VRTrackingReset.cs.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\UnityVRUI\VRStandardAssets\Scripts\VRTrackingReset.cs.meta
+    projectPath: Assets\UnityVRUI\VRStandardAssets\Scripts\VRTrackingReset.cs.meta
+    originalPath: 
+    status: 5
     staged: 0
   - path: Library\assetDatabase3
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\assetDatabase3
@@ -50,19 +410,7 @@ MonoBehaviour:
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\expandedItems
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\expandedItems
-    projectPath: Library\expandedItems
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    status: 3
+    status: 1
     staged: 0
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\gfu\cache\gitlocks.yaml
@@ -70,27 +418,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    status: 5
-    staged: 0
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gituser.yaml
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\gfu\cache\gituser.yaml
-    projectPath: Library\gfu\cache\gituser.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -100,225 +436,141 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\01\01da6dc2a4935421ebc881ad8c25e9f5
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\01\01da6dc2a4935421ebc881ad8c25e9f5
-    projectPath: Library\metadata\01\01da6dc2a4935421ebc881ad8c25e9f5
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\00af2a1673a7f2f45bb430ba3cb6b6f4
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\00\00af2a1673a7f2f45bb430ba3cb6b6f4
+    projectPath: Library\metadata\00\00af2a1673a7f2f45bb430ba3cb6b6f4
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\01\01da6dc2a4935421ebc881ad8c25e9f5.info
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\01\01da6dc2a4935421ebc881ad8c25e9f5.info
-    projectPath: Library\metadata\01\01da6dc2a4935421ebc881ad8c25e9f5.info
+  - path: Library\metadata\00\00af2a1673a7f2f45bb430ba3cb6b6f4.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\00\00af2a1673a7f2f45bb430ba3cb6b6f4.info
+    projectPath: Library\metadata\00\00af2a1673a7f2f45bb430ba3cb6b6f4.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\0b\0b935f1d20dea0a4ba83e4d6a4cb7506
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\0b\0b935f1d20dea0a4ba83e4d6a4cb7506
-    projectPath: Library\metadata\0b\0b935f1d20dea0a4ba83e4d6a4cb7506
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\0b\0b935f1d20dea0a4ba83e4d6a4cb7506.info
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\0b\0b935f1d20dea0a4ba83e4d6a4cb7506.info
-    projectPath: Library\metadata\0b\0b935f1d20dea0a4ba83e4d6a4cb7506.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\0b\0bcff93ff7f3942cca925493d8a87c3e
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\0b\0bcff93ff7f3942cca925493d8a87c3e
-    projectPath: Library\metadata\0b\0bcff93ff7f3942cca925493d8a87c3e
+  - path: Library\metadata\06\060f01795e5ac9e4fac098cc1382833b
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\06\060f01795e5ac9e4fac098cc1382833b
+    projectPath: Library\metadata\06\060f01795e5ac9e4fac098cc1382833b
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\0b\0bcff93ff7f3942cca925493d8a87c3e.info
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\0b\0bcff93ff7f3942cca925493d8a87c3e.info
-    projectPath: Library\metadata\0b\0bcff93ff7f3942cca925493d8a87c3e.info
+  - path: Library\metadata\06\060f01795e5ac9e4fac098cc1382833b.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\06\060f01795e5ac9e4fac098cc1382833b.info
+    projectPath: Library\metadata\06\060f01795e5ac9e4fac098cc1382833b.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\0e\0eeeab0f2e59045608d94e07d3de60a0
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\0e\0eeeab0f2e59045608d94e07d3de60a0
-    projectPath: Library\metadata\0e\0eeeab0f2e59045608d94e07d3de60a0
+  - path: Library\metadata\12\120d49341ea36a6439e316e39fef7e41
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\12\120d49341ea36a6439e316e39fef7e41
+    projectPath: Library\metadata\12\120d49341ea36a6439e316e39fef7e41
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\1d\1d65beb5a0ac7df4f962c1cda2e2b0b6
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\1d\1d65beb5a0ac7df4f962c1cda2e2b0b6
+    projectPath: Library\metadata\1d\1d65beb5a0ac7df4f962c1cda2e2b0b6
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\0e\0eeeab0f2e59045608d94e07d3de60a0.info
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\0e\0eeeab0f2e59045608d94e07d3de60a0.info
-    projectPath: Library\metadata\0e\0eeeab0f2e59045608d94e07d3de60a0.info
+  - path: Library\metadata\1d\1d65beb5a0ac7df4f962c1cda2e2b0b6.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\1d\1d65beb5a0ac7df4f962c1cda2e2b0b6.info
+    projectPath: Library\metadata\1d\1d65beb5a0ac7df4f962c1cda2e2b0b6.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
-    projectPath: Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\1c\1c401923d63e24ec0b2b9239ba99ea38
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\1c\1c401923d63e24ec0b2b9239ba99ea38
-    projectPath: Library\metadata\1c\1c401923d63e24ec0b2b9239ba99ea38
+  - path: Library\metadata\24\24b4c49af9877bb4e8396e881081aa92
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\24\24b4c49af9877bb4e8396e881081aa92
+    projectPath: Library\metadata\24\24b4c49af9877bb4e8396e881081aa92
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\1c\1c401923d63e24ec0b2b9239ba99ea38.info
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\1c\1c401923d63e24ec0b2b9239ba99ea38.info
-    projectPath: Library\metadata\1c\1c401923d63e24ec0b2b9239ba99ea38.info
+  - path: Library\metadata\24\24b4c49af9877bb4e8396e881081aa92.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\24\24b4c49af9877bb4e8396e881081aa92.info
+    projectPath: Library\metadata\24\24b4c49af9877bb4e8396e881081aa92.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\33\33c458013c8974ca88f4b104ca7c0ea4
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\33\33c458013c8974ca88f4b104ca7c0ea4
-    projectPath: Library\metadata\33\33c458013c8974ca88f4b104ca7c0ea4
+  - path: Library\metadata\2d\2d13014bfe7944b48ae15fabcd93855c
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\2d\2d13014bfe7944b48ae15fabcd93855c
+    projectPath: Library\metadata\2d\2d13014bfe7944b48ae15fabcd93855c
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\33\33c458013c8974ca88f4b104ca7c0ea4.info
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\33\33c458013c8974ca88f4b104ca7c0ea4.info
-    projectPath: Library\metadata\33\33c458013c8974ca88f4b104ca7c0ea4.info
+  - path: Library\metadata\2d\2d13014bfe7944b48ae15fabcd93855c.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\2d\2d13014bfe7944b48ae15fabcd93855c.info
+    projectPath: Library\metadata\2d\2d13014bfe7944b48ae15fabcd93855c.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
-    projectPath: Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
-    projectPath: Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\3b\3bb0254b9671413d9d08a855c5090237
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\3b\3bb0254b9671413d9d08a855c5090237
-    projectPath: Library\metadata\3b\3bb0254b9671413d9d08a855c5090237
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
-    projectPath: Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\40\405b9b51bb344a128608d968297df79c
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\40\405b9b51bb344a128608d968297df79c
-    projectPath: Library\metadata\40\405b9b51bb344a128608d968297df79c
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\41\4113173d5e95493ab8765d7b08371de4
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
-    projectPath: Library\metadata\41\4113173d5e95493ab8765d7b08371de4
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\46\46098a81a64a45c5b756320e10a22f13
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\46\46098a81a64a45c5b756320e10a22f13
-    projectPath: Library\metadata\46\46098a81a64a45c5b756320e10a22f13
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
-    projectPath: Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
-    projectPath: Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
-    projectPath: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\52\52e82a603042a4803b75a4faf1ece3c7
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\52\52e82a603042a4803b75a4faf1ece3c7
-    projectPath: Library\metadata\52\52e82a603042a4803b75a4faf1ece3c7
+  - path: Library\metadata\30\30e2d340852d038408e9bf7bb9c2c502
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\30\30e2d340852d038408e9bf7bb9c2c502
+    projectPath: Library\metadata\30\30e2d340852d038408e9bf7bb9c2c502
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\52\52e82a603042a4803b75a4faf1ece3c7.info
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\52\52e82a603042a4803b75a4faf1ece3c7.info
-    projectPath: Library\metadata\52\52e82a603042a4803b75a4faf1ece3c7.info
+  - path: Library\metadata\30\30e2d340852d038408e9bf7bb9c2c502.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\30\30e2d340852d038408e9bf7bb9c2c502.info
+    projectPath: Library\metadata\30\30e2d340852d038408e9bf7bb9c2c502.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
-    projectPath: Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+  - path: Library\metadata\3b\3b8d73c6c44d47c4e8147ec37f2ce2e6
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\3b\3b8d73c6c44d47c4e8147ec37f2ce2e6
+    projectPath: Library\metadata\3b\3b8d73c6c44d47c4e8147ec37f2ce2e6
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
-  - path: Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
-    projectPath: Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
+  - path: Library\metadata\3b\3b8d73c6c44d47c4e8147ec37f2ce2e6.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\3b\3b8d73c6c44d47c4e8147ec37f2ce2e6.info
+    projectPath: Library\metadata\3b\3b8d73c6c44d47c4e8147ec37f2ce2e6.info
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
-  - path: Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
-    projectPath: Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
+  - path: Library\metadata\43\43c18b880c62744449e7f9ea93ee01f2
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\43\43c18b880c62744449e7f9ea93ee01f2
+    projectPath: Library\metadata\43\43c18b880c62744449e7f9ea93ee01f2
     originalPath: 
-    status: 3
+    status: 5
+    staged: 0
+  - path: Library\metadata\43\43c18b880c62744449e7f9ea93ee01f2.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\43\43c18b880c62744449e7f9ea93ee01f2.info
+    projectPath: Library\metadata\43\43c18b880c62744449e7f9ea93ee01f2.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\5c\5c8f7a7dd34f79343be5e37d6bbbfab5
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\5c\5c8f7a7dd34f79343be5e37d6bbbfab5
+    projectPath: Library\metadata\5c\5c8f7a7dd34f79343be5e37d6bbbfab5
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\5c\5c8f7a7dd34f79343be5e37d6bbbfab5.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\5c\5c8f7a7dd34f79343be5e37d6bbbfab5.info
+    projectPath: Library\metadata\5c\5c8f7a7dd34f79343be5e37d6bbbfab5.info
+    originalPath: 
+    status: 5
     staged: 0
   - path: Library\metadata\6a\6a8665e27cf8c7940a07e89a4f30de2d
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\6a\6a8665e27cf8c7940a07e89a4f30de2d
     projectPath: Library\metadata\6a\6a8665e27cf8c7940a07e89a4f30de2d
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\6a\6a8665e27cf8c7940a07e89a4f30de2d.info
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\6a\6a8665e27cf8c7940a07e89a4f30de2d.info
-    projectPath: Library\metadata\6a\6a8665e27cf8c7940a07e89a4f30de2d.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
-    projectPath: Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
-    originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
-    projectPath: Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\76\7668179ede524d6396c8b7d84461ea29
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\76\7668179ede524d6396c8b7d84461ea29
-    projectPath: Library\metadata\76\7668179ede524d6396c8b7d84461ea29
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\76\76e8ca433f690498685aa493d7dc25df
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\76\76e8ca433f690498685aa493d7dc25df
-    projectPath: Library\metadata\76\76e8ca433f690498685aa493d7dc25df
+  - path: Library\metadata\72\72d7a132712e7b243bb84d13469cd94c
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\72\72d7a132712e7b243bb84d13469cd94c
+    projectPath: Library\metadata\72\72d7a132712e7b243bb84d13469cd94c
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\76\76e8ca433f690498685aa493d7dc25df.info
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\76\76e8ca433f690498685aa493d7dc25df.info
-    projectPath: Library\metadata\76\76e8ca433f690498685aa493d7dc25df.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\7a\7add5aba12bde4453936b4666e09630f
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\7a\7add5aba12bde4453936b4666e09630f
-    projectPath: Library\metadata\7a\7add5aba12bde4453936b4666e09630f
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\7a\7add5aba12bde4453936b4666e09630f.info
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\7a\7add5aba12bde4453936b4666e09630f.info
-    projectPath: Library\metadata\7a\7add5aba12bde4453936b4666e09630f.info
+  - path: Library\metadata\72\72d7a132712e7b243bb84d13469cd94c.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\72\72d7a132712e7b243bb84d13469cd94c.info
+    projectPath: Library\metadata\72\72d7a132712e7b243bb84d13469cd94c.info
     originalPath: 
     status: 5
     staged: 0
@@ -328,131 +580,257 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
-    projectPath: Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\84\844f815391db42d49455cbf1a7bfc434
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\84\844f815391db42d49455cbf1a7bfc434
-    projectPath: Library\metadata\84\844f815391db42d49455cbf1a7bfc434
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\84\8467414919406403682db70aee517c33
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\84\8467414919406403682db70aee517c33
-    projectPath: Library\metadata\84\8467414919406403682db70aee517c33
+  - path: Library\metadata\7f\7fea6f8eea666334aaf9869ad8f7bcda
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\7f\7fea6f8eea666334aaf9869ad8f7bcda
+    projectPath: Library\metadata\7f\7fea6f8eea666334aaf9869ad8f7bcda
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\84\8467414919406403682db70aee517c33.info
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\84\8467414919406403682db70aee517c33.info
-    projectPath: Library\metadata\84\8467414919406403682db70aee517c33.info
+  - path: Library\metadata\7f\7fea6f8eea666334aaf9869ad8f7bcda.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\7f\7fea6f8eea666334aaf9869ad8f7bcda.info
+    projectPath: Library\metadata\7f\7fea6f8eea666334aaf9869ad8f7bcda.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
-    projectPath: Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\ae\aec1a61ec5f734129871518507ab3606
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\ae\aec1a61ec5f734129871518507ab3606
-    projectPath: Library\metadata\ae\aec1a61ec5f734129871518507ab3606
+  - path: Library\metadata\82\82cf193ff33cea445917290b8f6cfd94
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\82\82cf193ff33cea445917290b8f6cfd94
+    projectPath: Library\metadata\82\82cf193ff33cea445917290b8f6cfd94
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\ae\aec1a61ec5f734129871518507ab3606.info
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\ae\aec1a61ec5f734129871518507ab3606.info
-    projectPath: Library\metadata\ae\aec1a61ec5f734129871518507ab3606.info
+  - path: Library\metadata\82\82cf193ff33cea445917290b8f6cfd94.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\82\82cf193ff33cea445917290b8f6cfd94.info
+    projectPath: Library\metadata\82\82cf193ff33cea445917290b8f6cfd94.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\b2\b2b693dffac3a4433b3114fea0b7fd4e
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\b2\b2b693dffac3a4433b3114fea0b7fd4e
-    projectPath: Library\metadata\b2\b2b693dffac3a4433b3114fea0b7fd4e
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\b5\b5da970776034f77a070d99423d68791
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\b5\b5da970776034f77a070d99423d68791
-    projectPath: Library\metadata\b5\b5da970776034f77a070d99423d68791
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
-    projectPath: Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\d1\d119cba6442ba48df84c708066ff08a5
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\d1\d119cba6442ba48df84c708066ff08a5
-    projectPath: Library\metadata\d1\d119cba6442ba48df84c708066ff08a5
+  - path: Library\metadata\86\8656d10b098e9374396ece634074accb
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\86\8656d10b098e9374396ece634074accb
+    projectPath: Library\metadata\86\8656d10b098e9374396ece634074accb
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\d1\d119cba6442ba48df84c708066ff08a5.info
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\d1\d119cba6442ba48df84c708066ff08a5.info
-    projectPath: Library\metadata\d1\d119cba6442ba48df84c708066ff08a5.info
+  - path: Library\metadata\86\8656d10b098e9374396ece634074accb.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\86\8656d10b098e9374396ece634074accb.info
+    projectPath: Library\metadata\86\8656d10b098e9374396ece634074accb.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
-    projectPath: Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\e1\e1007cd261c84053beb0c3537782908d
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\e1\e1007cd261c84053beb0c3537782908d
-    projectPath: Library\metadata\e1\e1007cd261c84053beb0c3537782908d
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
-    projectPath: Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
-    projectPath: Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
-    projectPath: Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\f2\f2e2612249e934989ba4eba4b6861c85
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\f2\f2e2612249e934989ba4eba4b6861c85
-    projectPath: Library\metadata\f2\f2e2612249e934989ba4eba4b6861c85
+  - path: Library\metadata\87\87a023bf4efda4145860192b9d3df5c2
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\87\87a023bf4efda4145860192b9d3df5c2
+    projectPath: Library\metadata\87\87a023bf4efda4145860192b9d3df5c2
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\f2\f2e2612249e934989ba4eba4b6861c85.info
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\f2\f2e2612249e934989ba4eba4b6861c85.info
-    projectPath: Library\metadata\f2\f2e2612249e934989ba4eba4b6861c85.info
+  - path: Library\metadata\87\87a023bf4efda4145860192b9d3df5c2.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\87\87a023bf4efda4145860192b9d3df5c2.info
+    projectPath: Library\metadata\87\87a023bf4efda4145860192b9d3df5c2.info
     originalPath: 
     status: 5
     staged: 0
-  - path: Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
-    projectPath: Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+  - path: Library\metadata\89\8902ef04f323e444b98d2e4fd80a56ab
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\89\8902ef04f323e444b98d2e4fd80a56ab
+    projectPath: Library\metadata\89\8902ef04f323e444b98d2e4fd80a56ab
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
-  - path: Library\metadata\f7\f70555f144d8491a825f0804e09c671c
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
-    projectPath: Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+  - path: Library\metadata\89\8902ef04f323e444b98d2e4fd80a56ab.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\89\8902ef04f323e444b98d2e4fd80a56ab.info
+    projectPath: Library\metadata\89\8902ef04f323e444b98d2e4fd80a56ab.info
     originalPath: 
-    status: 3
+    status: 5
+    staged: 0
+  - path: Library\metadata\8d\8de506d4489bff74488535c40e1f6f59
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\8d\8de506d4489bff74488535c40e1f6f59
+    projectPath: Library\metadata\8d\8de506d4489bff74488535c40e1f6f59
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\8d\8de506d4489bff74488535c40e1f6f59.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\8d\8de506d4489bff74488535c40e1f6f59.info
+    projectPath: Library\metadata\8d\8de506d4489bff74488535c40e1f6f59.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\8f\8f79a6caf8d8ab34b92bb8cf5e687a5e
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\8f\8f79a6caf8d8ab34b92bb8cf5e687a5e
+    projectPath: Library\metadata\8f\8f79a6caf8d8ab34b92bb8cf5e687a5e
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\8f\8f79a6caf8d8ab34b92bb8cf5e687a5e.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\8f\8f79a6caf8d8ab34b92bb8cf5e687a5e.info
+    projectPath: Library\metadata\8f\8f79a6caf8d8ab34b92bb8cf5e687a5e.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\92\927e2929c2ab79e4d8c23db91acd05f7
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\92\927e2929c2ab79e4d8c23db91acd05f7
+    projectPath: Library\metadata\92\927e2929c2ab79e4d8c23db91acd05f7
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\92\927e2929c2ab79e4d8c23db91acd05f7.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\92\927e2929c2ab79e4d8c23db91acd05f7.info
+    projectPath: Library\metadata\92\927e2929c2ab79e4d8c23db91acd05f7.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\99\99b16b2002c70344eb09044a0e65c993
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\99\99b16b2002c70344eb09044a0e65c993
+    projectPath: Library\metadata\99\99b16b2002c70344eb09044a0e65c993
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\99\99b16b2002c70344eb09044a0e65c993.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\99\99b16b2002c70344eb09044a0e65c993.info
+    projectPath: Library\metadata\99\99b16b2002c70344eb09044a0e65c993.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\9d\9db1c9b16346dd744ac5badb779a178a
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\9d\9db1c9b16346dd744ac5badb779a178a
+    projectPath: Library\metadata\9d\9db1c9b16346dd744ac5badb779a178a
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\9d\9db1c9b16346dd744ac5badb779a178a.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\9d\9db1c9b16346dd744ac5badb779a178a.info
+    projectPath: Library\metadata\9d\9db1c9b16346dd744ac5badb779a178a.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\a3\a3a6767f732d1264194d8cd68f87e93f
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\a3\a3a6767f732d1264194d8cd68f87e93f
+    projectPath: Library\metadata\a3\a3a6767f732d1264194d8cd68f87e93f
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\a3\a3a6767f732d1264194d8cd68f87e93f.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\a3\a3a6767f732d1264194d8cd68f87e93f.info
+    projectPath: Library\metadata\a3\a3a6767f732d1264194d8cd68f87e93f.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ad\ad762b9452d00fe458c5df2cf220ca5b
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\ad\ad762b9452d00fe458c5df2cf220ca5b
+    projectPath: Library\metadata\ad\ad762b9452d00fe458c5df2cf220ca5b
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ad\ad762b9452d00fe458c5df2cf220ca5b.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\ad\ad762b9452d00fe458c5df2cf220ca5b.info
+    projectPath: Library\metadata\ad\ad762b9452d00fe458c5df2cf220ca5b.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\af\aff17147c9606014f8e8f74f255d466a
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\af\aff17147c9606014f8e8f74f255d466a
+    projectPath: Library\metadata\af\aff17147c9606014f8e8f74f255d466a
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\af\aff17147c9606014f8e8f74f255d466a.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\af\aff17147c9606014f8e8f74f255d466a.info
+    projectPath: Library\metadata\af\aff17147c9606014f8e8f74f255d466a.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\b0\b0eb73c8c80764f4a9d3d4d7e081a4f9
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\b0\b0eb73c8c80764f4a9d3d4d7e081a4f9
+    projectPath: Library\metadata\b0\b0eb73c8c80764f4a9d3d4d7e081a4f9
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\b0\b0eb73c8c80764f4a9d3d4d7e081a4f9.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\b0\b0eb73c8c80764f4a9d3d4d7e081a4f9.info
+    projectPath: Library\metadata\b0\b0eb73c8c80764f4a9d3d4d7e081a4f9.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\b7\b7cd1f7b8ca2e7743b6fdc4a7f7cc7b5
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\b7\b7cd1f7b8ca2e7743b6fdc4a7f7cc7b5
+    projectPath: Library\metadata\b7\b7cd1f7b8ca2e7743b6fdc4a7f7cc7b5
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\b7\b7cd1f7b8ca2e7743b6fdc4a7f7cc7b5.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\b7\b7cd1f7b8ca2e7743b6fdc4a7f7cc7b5.info
+    projectPath: Library\metadata\b7\b7cd1f7b8ca2e7743b6fdc4a7f7cc7b5.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\b8\b89e2da602d20fc469868fdb96685958
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\b8\b89e2da602d20fc469868fdb96685958
+    projectPath: Library\metadata\b8\b89e2da602d20fc469868fdb96685958
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\b8\b89e2da602d20fc469868fdb96685958.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\b8\b89e2da602d20fc469868fdb96685958.info
+    projectPath: Library\metadata\b8\b89e2da602d20fc469868fdb96685958.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\d1\d166aae8403d3204981c0c971a8725d6
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\d1\d166aae8403d3204981c0c971a8725d6
+    projectPath: Library\metadata\d1\d166aae8403d3204981c0c971a8725d6
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\d1\d166aae8403d3204981c0c971a8725d6.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\d1\d166aae8403d3204981c0c971a8725d6.info
+    projectPath: Library\metadata\d1\d166aae8403d3204981c0c971a8725d6.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\dc\dca29b185f073624e84c5000a3f26d05
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\dc\dca29b185f073624e84c5000a3f26d05
+    projectPath: Library\metadata\dc\dca29b185f073624e84c5000a3f26d05
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\dc\dca29b185f073624e84c5000a3f26d05.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\dc\dca29b185f073624e84c5000a3f26d05.info
+    projectPath: Library\metadata\dc\dca29b185f073624e84c5000a3f26d05.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e7\e75dfb74e3294a14dbbf5bee2f962e69
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\e7\e75dfb74e3294a14dbbf5bee2f962e69
+    projectPath: Library\metadata\e7\e75dfb74e3294a14dbbf5bee2f962e69
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e7\e75dfb74e3294a14dbbf5bee2f962e69.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\e7\e75dfb74e3294a14dbbf5bee2f962e69.info
+    projectPath: Library\metadata\e7\e75dfb74e3294a14dbbf5bee2f962e69.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e8\e8c06557c6d45f8428c00f384153f69b
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\e8\e8c06557c6d45f8428c00f384153f69b
+    projectPath: Library\metadata\e8\e8c06557c6d45f8428c00f384153f69b
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e8\e8c06557c6d45f8428c00f384153f69b.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\e8\e8c06557c6d45f8428c00f384153f69b.info
+    projectPath: Library\metadata\e8\e8c06557c6d45f8428c00f384153f69b.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ff\ffebc012055484b4899e163803755608
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\ff\ffebc012055484b4899e163803755608
+    projectPath: Library\metadata\ff\ffebc012055484b4899e163803755608
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ff\ffebc012055484b4899e163803755608.info
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\ff\ffebc012055484b4899e163803755608.info
+    projectPath: Library\metadata\ff\ffebc012055484b4899e163803755608.info
+    originalPath: 
+    status: 5
     staged: 0
   - path: Library\ProjectSettings.asset
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ProjectSettings.asset
@@ -478,21 +856,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
     originalPath: 
     status: 3
     staged: 0
@@ -502,21 +868,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\ScriptAssemblies\SteamVR.pdb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR.pdb
-    projectPath: Library\ScriptAssemblies\SteamVR.pdb
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\ScriptAssemblies\SteamVR_Actions.dll
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR_Actions.dll
     projectPath: Library\ScriptAssemblies\SteamVR_Actions.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SteamVR_Actions.pdb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR_Actions.pdb
-    projectPath: Library\ScriptAssemblies\SteamVR_Actions.pdb
     originalPath: 
     status: 3
     staged: 0
@@ -526,21 +880,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\ScriptAssemblies\SteamVR_Editor.pdb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR_Editor.pdb
-    projectPath: Library\ScriptAssemblies\SteamVR_Editor.pdb
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\ScriptAssemblies\SteamVR_Input_Editor.dll
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
     projectPath: Library\ScriptAssemblies\SteamVR_Input_Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\SteamVR_Input_Editor.pdb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR_Input_Editor.pdb
-    projectPath: Library\ScriptAssemblies\SteamVR_Input_Editor.pdb
     originalPath: 
     status: 3
     staged: 0
@@ -550,21 +892,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.pdb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.pdb
-    projectPath: Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.pdb
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
     projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
     originalPath: 
     status: 3
     staged: 0
@@ -574,21 +904,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
     projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
     originalPath: 
     status: 3
     staged: 0
@@ -604,111 +922,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ShaderCache\0\0c075c83529b0c90e83e67be4044be21.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\0\0c075c83529b0c90e83e67be4044be21.bin
-    projectPath: Library\ShaderCache\0\0c075c83529b0c90e83e67be4044be21.bin
+  - path: Library\ShaderCache\2\2fc5c1079387233548b1389de8136a6a.bin
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\2\2fc5c1079387233548b1389de8136a6a.bin
+    projectPath: Library\ShaderCache\2\2fc5c1079387233548b1389de8136a6a.bin
     originalPath: 
     status: 1
     staged: 0
-  - path: Library\ShaderCache\1\120be5909668624bd9e926b0b1e5d317.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\1\120be5909668624bd9e926b0b1e5d317.bin
-    projectPath: Library\ShaderCache\1\120be5909668624bd9e926b0b1e5d317.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\1\16bb1fcc6be526d3d9b7a1c86efe5b31.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\1\16bb1fcc6be526d3d9b7a1c86efe5b31.bin
-    projectPath: Library\ShaderCache\1\16bb1fcc6be526d3d9b7a1c86efe5b31.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\1\1d7034688c00c6a3b3e9a69be934e007.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\1\1d7034688c00c6a3b3e9a69be934e007.bin
-    projectPath: Library\ShaderCache\1\1d7034688c00c6a3b3e9a69be934e007.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\5\52f815a4fd7e1710f88457bc16174c0a.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\5\52f815a4fd7e1710f88457bc16174c0a.bin
-    projectPath: Library\ShaderCache\5\52f815a4fd7e1710f88457bc16174c0a.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\5\545bf3acf2bdec08a87171e639d5dfa2.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\5\545bf3acf2bdec08a87171e639d5dfa2.bin
-    projectPath: Library\ShaderCache\5\545bf3acf2bdec08a87171e639d5dfa2.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\6\6068005779df119aec3a0722fec8de15.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\6\6068005779df119aec3a0722fec8de15.bin
-    projectPath: Library\ShaderCache\6\6068005779df119aec3a0722fec8de15.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\6\635ff883c2a0819e1524a8c5777d047a.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\6\635ff883c2a0819e1524a8c5777d047a.bin
-    projectPath: Library\ShaderCache\6\635ff883c2a0819e1524a8c5777d047a.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\b\bbfcc5e224b640ca5744ba68f3d45c81.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\b\bbfcc5e224b640ca5744ba68f3d45c81.bin
-    projectPath: Library\ShaderCache\b\bbfcc5e224b640ca5744ba68f3d45c81.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\d\d11e6256f41cdf268c4129dfa4944a4b.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\d\d11e6256f41cdf268c4129dfa4944a4b.bin
-    projectPath: Library\ShaderCache\d\d11e6256f41cdf268c4129dfa4944a4b.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\d\d25be1a71b169979b7ae7a853c21e39e.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\d\d25be1a71b169979b7ae7a853c21e39e.bin
-    projectPath: Library\ShaderCache\d\d25be1a71b169979b7ae7a853c21e39e.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\d\df625d1b8ebd580d92f67837d2c2f054.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\d\df625d1b8ebd580d92f67837d2c2f054.bin
-    projectPath: Library\ShaderCache\d\df625d1b8ebd580d92f67837d2c2f054.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\e\e0c853e1d744db1bc390758078dcf008.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\e\e0c853e1d744db1bc390758078dcf008.bin
-    projectPath: Library\ShaderCache\e\e0c853e1d744db1bc390758078dcf008.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\e\ee910eed09dcb1af3a3567f8f4204ee8.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\e\ee910eed09dcb1af3a3567f8f4204ee8.bin
-    projectPath: Library\ShaderCache\e\ee910eed09dcb1af3a3567f8f4204ee8.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\f\f0c2898c3980d0f23a87d97dd8fbaf43.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\f\f0c2898c3980d0f23a87d97dd8fbaf43.bin
-    projectPath: Library\ShaderCache\f\f0c2898c3980d0f23a87d97dd8fbaf43.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\f\f13433d1e349462bf20eaeb0595cdb33.bin
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\f\f13433d1e349462bf20eaeb0595cdb33.bin
-    projectPath: Library\ShaderCache\f\f13433d1e349462bf20eaeb0595cdb33.bin
+  - path: Library\ShaderCache\8\8163e189ce78ba84260281c58898f867.bin
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache\8\8163e189ce78ba84260281c58898f867.bin
+    projectPath: Library\ShaderCache\8\8163e189ce78ba84260281c58898f867.bin
     originalPath: 
     status: 1
     staged: 0
@@ -736,11 +958,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
   - path: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
@@ -752,12 +974,6 @@ MonoBehaviour:
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
     projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
     originalPath: 
-    status: 1
-    staged: 0
-  - path: obj\Debug\project.razor.json
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\project.razor.json
-    projectPath: obj\Debug\project.razor.json
-    originalPath: 
     status: 3
     staged: 0
   - path: obj\Debug\SteamVR.csproj.CoreCompileInputs.cache
@@ -766,11 +982,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: obj\Debug\SteamVR.csprojResolveAssemblyReference.cache
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\SteamVR.csprojResolveAssemblyReference.cache
-    projectPath: obj\Debug\SteamVR.csprojResolveAssemblyReference.cache
+  - path: obj\Debug\SteamVR.csprojAssemblyReference.cache
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\SteamVR.csprojAssemblyReference.cache
+    projectPath: obj\Debug\SteamVR.csprojAssemblyReference.cache
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
   - path: obj\Debug\SteamVR_Actions.csproj.CoreCompileInputs.cache
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\SteamVR_Actions.csproj.CoreCompileInputs.cache
@@ -784,11 +1000,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: obj\Debug\SteamVR_Editor.csprojResolveAssemblyReference.cache
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\SteamVR_Editor.csprojResolveAssemblyReference.cache
-    projectPath: obj\Debug\SteamVR_Editor.csprojResolveAssemblyReference.cache
+  - path: obj\Debug\SteamVR_Editor.csprojAssemblyReference.cache
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\SteamVR_Editor.csprojAssemblyReference.cache
+    projectPath: obj\Debug\SteamVR_Editor.csprojAssemblyReference.cache
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
   - path: obj\Debug\SteamVR_Input_Editor.csproj.CoreCompileInputs.cache
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\SteamVR_Input_Editor.csproj.CoreCompileInputs.cache
@@ -799,48 +1015,6 @@ MonoBehaviour:
   - path: obj\Debug\SteamVR_Windows_EditorHelper.csproj.CoreCompileInputs.cache
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\SteamVR_Windows_EditorHelper.csproj.CoreCompileInputs.cache
     projectPath: obj\Debug\SteamVR_Windows_EditorHelper.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings\QualitySettings.asset
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\ProjectSettings\QualitySettings.asset
-    projectPath: ProjectSettings\QualitySettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings\UnityConnectSettings.asset
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\ProjectSettings\UnityConnectSettings.asset
-    projectPath: ProjectSettings\UnityConnectSettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: SteamVR.csproj
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\SteamVR.csproj
-    projectPath: SteamVR.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: SteamVR_Actions.csproj
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\SteamVR_Actions.csproj
-    projectPath: SteamVR_Actions.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: SteamVR_Editor.csproj
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\SteamVR_Editor.csproj
-    projectPath: SteamVR_Editor.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: SteamVR_Input_Editor.csproj
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\SteamVR_Input_Editor.csproj
-    projectPath: SteamVR_Input_Editor.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: SteamVR_Windows_EditorHelper.csproj
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\SteamVR_Windows_EditorHelper.csproj
-    projectPath: SteamVR_Windows_EditorHelper.csproj
     originalPath: 
     status: 3
     staged: 0
@@ -860,287 +1034,275 @@ MonoBehaviour:
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Temp\UnityTempFile-04dc40c993cc17643a2e60695840da95
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-04dc40c993cc17643a2e60695840da95
-    projectPath: Temp\UnityTempFile-04dc40c993cc17643a2e60695840da95
+  - path: Temp\UnityTempFile-046f899a120c8724b9c919a655d7b2b8
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-046f899a120c8724b9c919a655d7b2b8
+    projectPath: Temp\UnityTempFile-046f899a120c8724b9c919a655d7b2b8
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-077e802f22d69ef40b10d888761cb679
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-077e802f22d69ef40b10d888761cb679
-    projectPath: Temp\UnityTempFile-077e802f22d69ef40b10d888761cb679
+  - path: Temp\UnityTempFile-12f44021b9a5acf46aa71854ab6f3f6b
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-12f44021b9a5acf46aa71854ab6f3f6b
+    projectPath: Temp\UnityTempFile-12f44021b9a5acf46aa71854ab6f3f6b
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-0aed6a81891535a4a9665e3d98a7719f
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-0aed6a81891535a4a9665e3d98a7719f
-    projectPath: Temp\UnityTempFile-0aed6a81891535a4a9665e3d98a7719f
+  - path: Temp\UnityTempFile-143c427f7e9fb434eac4a4d939c07374
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-143c427f7e9fb434eac4a4d939c07374
+    projectPath: Temp\UnityTempFile-143c427f7e9fb434eac4a4d939c07374
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-105189c687acbac48b622e13a022506d
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-105189c687acbac48b622e13a022506d
-    projectPath: Temp\UnityTempFile-105189c687acbac48b622e13a022506d
+  - path: Temp\UnityTempFile-146a38e964678fb4981d4d8df5f42c70
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-146a38e964678fb4981d4d8df5f42c70
+    projectPath: Temp\UnityTempFile-146a38e964678fb4981d4d8df5f42c70
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-10da26e21e6e6be4c9117b24392312c9
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-10da26e21e6e6be4c9117b24392312c9
-    projectPath: Temp\UnityTempFile-10da26e21e6e6be4c9117b24392312c9
+  - path: Temp\UnityTempFile-24e03423976c1704c890f2084aa1c47b
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-24e03423976c1704c890f2084aa1c47b
+    projectPath: Temp\UnityTempFile-24e03423976c1704c890f2084aa1c47b
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-13f12282c0762a74597b5b2646629f9e
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-13f12282c0762a74597b5b2646629f9e
-    projectPath: Temp\UnityTempFile-13f12282c0762a74597b5b2646629f9e
+  - path: Temp\UnityTempFile-2e53b7bcd36b48a44a257309b749f7eb
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-2e53b7bcd36b48a44a257309b749f7eb
+    projectPath: Temp\UnityTempFile-2e53b7bcd36b48a44a257309b749f7eb
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-1ae1f2456e9ac1646bf25125b6b07d65
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-1ae1f2456e9ac1646bf25125b6b07d65
-    projectPath: Temp\UnityTempFile-1ae1f2456e9ac1646bf25125b6b07d65
+  - path: Temp\UnityTempFile-3210238a243d6c0438473afcfe9cc6a2
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-3210238a243d6c0438473afcfe9cc6a2
+    projectPath: Temp\UnityTempFile-3210238a243d6c0438473afcfe9cc6a2
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-1d31f065f2dc3ce4e9835df914155c24
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-1d31f065f2dc3ce4e9835df914155c24
-    projectPath: Temp\UnityTempFile-1d31f065f2dc3ce4e9835df914155c24
+  - path: Temp\UnityTempFile-35ea45f7d78208542be1ef3a1d10d179
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-35ea45f7d78208542be1ef3a1d10d179
+    projectPath: Temp\UnityTempFile-35ea45f7d78208542be1ef3a1d10d179
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-216cefbfb5dec9045802f139b3f13ef3
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-216cefbfb5dec9045802f139b3f13ef3
-    projectPath: Temp\UnityTempFile-216cefbfb5dec9045802f139b3f13ef3
+  - path: Temp\UnityTempFile-3e70301a617779643a4be8c43f408d7c
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-3e70301a617779643a4be8c43f408d7c
+    projectPath: Temp\UnityTempFile-3e70301a617779643a4be8c43f408d7c
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-21a5a20dc05ae3e47af4a5f2ee5bd64d
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-21a5a20dc05ae3e47af4a5f2ee5bd64d
-    projectPath: Temp\UnityTempFile-21a5a20dc05ae3e47af4a5f2ee5bd64d
+  - path: Temp\UnityTempFile-3f4fc66cf39155144b2467eb5dd1a34a
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-3f4fc66cf39155144b2467eb5dd1a34a
+    projectPath: Temp\UnityTempFile-3f4fc66cf39155144b2467eb5dd1a34a
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-2209f67506a476943a50bd423c92a4b2
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-2209f67506a476943a50bd423c92a4b2
-    projectPath: Temp\UnityTempFile-2209f67506a476943a50bd423c92a4b2
+  - path: Temp\UnityTempFile-49c466ad07b3fa140bd77cd0f0a372ae
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-49c466ad07b3fa140bd77cd0f0a372ae
+    projectPath: Temp\UnityTempFile-49c466ad07b3fa140bd77cd0f0a372ae
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-26d6f3685ba5acf42b12d6562964c7cb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-26d6f3685ba5acf42b12d6562964c7cb
-    projectPath: Temp\UnityTempFile-26d6f3685ba5acf42b12d6562964c7cb
+  - path: Temp\UnityTempFile-4d69ac2d8ca94c04ca465468192b514c
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-4d69ac2d8ca94c04ca465468192b514c
+    projectPath: Temp\UnityTempFile-4d69ac2d8ca94c04ca465468192b514c
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-29940d476e0a5694e951139022ff8b69
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-29940d476e0a5694e951139022ff8b69
-    projectPath: Temp\UnityTempFile-29940d476e0a5694e951139022ff8b69
+  - path: Temp\UnityTempFile-54aa00a9e3647f54ba2d8b82e4016b79
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-54aa00a9e3647f54ba2d8b82e4016b79
+    projectPath: Temp\UnityTempFile-54aa00a9e3647f54ba2d8b82e4016b79
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-2d36ef1178733b64d98334fd6c9a7868
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-2d36ef1178733b64d98334fd6c9a7868
-    projectPath: Temp\UnityTempFile-2d36ef1178733b64d98334fd6c9a7868
+  - path: Temp\UnityTempFile-55f7a04e2c0019440a117433f9b048b7
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-55f7a04e2c0019440a117433f9b048b7
+    projectPath: Temp\UnityTempFile-55f7a04e2c0019440a117433f9b048b7
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-3d233a8475e65114181c5eb0c0375192
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-3d233a8475e65114181c5eb0c0375192
-    projectPath: Temp\UnityTempFile-3d233a8475e65114181c5eb0c0375192
+  - path: Temp\UnityTempFile-5cef6e3aed969034cb65312103eda64f
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-5cef6e3aed969034cb65312103eda64f
+    projectPath: Temp\UnityTempFile-5cef6e3aed969034cb65312103eda64f
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-41ab29e1748481d4cb2ae746d3a5f427
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-41ab29e1748481d4cb2ae746d3a5f427
-    projectPath: Temp\UnityTempFile-41ab29e1748481d4cb2ae746d3a5f427
+  - path: Temp\UnityTempFile-69d204c693998eb4bacb9c66f9436598
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-69d204c693998eb4bacb9c66f9436598
+    projectPath: Temp\UnityTempFile-69d204c693998eb4bacb9c66f9436598
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-42397468f9de87646ada2e8cfa7753dc
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-42397468f9de87646ada2e8cfa7753dc
-    projectPath: Temp\UnityTempFile-42397468f9de87646ada2e8cfa7753dc
+  - path: Temp\UnityTempFile-76c64f1953b547b4cacc64231deb2eff
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-76c64f1953b547b4cacc64231deb2eff
+    projectPath: Temp\UnityTempFile-76c64f1953b547b4cacc64231deb2eff
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-45b4edb4a61c2d047bccf9deb9a9cd9c
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-45b4edb4a61c2d047bccf9deb9a9cd9c
-    projectPath: Temp\UnityTempFile-45b4edb4a61c2d047bccf9deb9a9cd9c
+  - path: Temp\UnityTempFile-7868414485c1faf4db5849649c213795
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-7868414485c1faf4db5849649c213795
+    projectPath: Temp\UnityTempFile-7868414485c1faf4db5849649c213795
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-46210bb6d93feb741892eec451248a61
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-46210bb6d93feb741892eec451248a61
-    projectPath: Temp\UnityTempFile-46210bb6d93feb741892eec451248a61
+  - path: Temp\UnityTempFile-7d026cba53af5c7429873495b86c3600
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-7d026cba53af5c7429873495b86c3600
+    projectPath: Temp\UnityTempFile-7d026cba53af5c7429873495b86c3600
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-48babc18f37e8924f919f92bb97753e4
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-48babc18f37e8924f919f92bb97753e4
-    projectPath: Temp\UnityTempFile-48babc18f37e8924f919f92bb97753e4
+  - path: Temp\UnityTempFile-7e356fcd37911b24a914d7baefc90804
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-7e356fcd37911b24a914d7baefc90804
+    projectPath: Temp\UnityTempFile-7e356fcd37911b24a914d7baefc90804
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-5328e0057f67a734fa34c93d2f9ff6bc
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-5328e0057f67a734fa34c93d2f9ff6bc
-    projectPath: Temp\UnityTempFile-5328e0057f67a734fa34c93d2f9ff6bc
+  - path: Temp\UnityTempFile-863b1c0e99d14e04da655f61a8b442be
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-863b1c0e99d14e04da655f61a8b442be
+    projectPath: Temp\UnityTempFile-863b1c0e99d14e04da655f61a8b442be
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-61540a2cf8243124faff7ec394a7dcec
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-61540a2cf8243124faff7ec394a7dcec
-    projectPath: Temp\UnityTempFile-61540a2cf8243124faff7ec394a7dcec
+  - path: Temp\UnityTempFile-8d097fbfd2eff2c4c87b5eb1cc7ff4d3
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-8d097fbfd2eff2c4c87b5eb1cc7ff4d3
+    projectPath: Temp\UnityTempFile-8d097fbfd2eff2c4c87b5eb1cc7ff4d3
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-654341583c7942540b7411e0a46ebd48
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-654341583c7942540b7411e0a46ebd48
-    projectPath: Temp\UnityTempFile-654341583c7942540b7411e0a46ebd48
+  - path: Temp\UnityTempFile-946b55c1e77cc0c4e9a33cdc533a6a2e
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-946b55c1e77cc0c4e9a33cdc533a6a2e
+    projectPath: Temp\UnityTempFile-946b55c1e77cc0c4e9a33cdc533a6a2e
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-680a1a041e48186489d2f75937fb6523
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-680a1a041e48186489d2f75937fb6523
-    projectPath: Temp\UnityTempFile-680a1a041e48186489d2f75937fb6523
+  - path: Temp\UnityTempFile-984cd5f0adbf8eb419697f7a5585bd16
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-984cd5f0adbf8eb419697f7a5585bd16
+    projectPath: Temp\UnityTempFile-984cd5f0adbf8eb419697f7a5585bd16
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-7a6ca75643aaa00449c28eb7c98b2bd0
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-7a6ca75643aaa00449c28eb7c98b2bd0
-    projectPath: Temp\UnityTempFile-7a6ca75643aaa00449c28eb7c98b2bd0
+  - path: Temp\UnityTempFile-99e430ba87d54084c95ebf7022ec8620
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-99e430ba87d54084c95ebf7022ec8620
+    projectPath: Temp\UnityTempFile-99e430ba87d54084c95ebf7022ec8620
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-7dd3f0e0dd00eba43aa23ff9b9051e38
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-7dd3f0e0dd00eba43aa23ff9b9051e38
-    projectPath: Temp\UnityTempFile-7dd3f0e0dd00eba43aa23ff9b9051e38
+  - path: Temp\UnityTempFile-9d3a8580cced5b5489891346c9621e57
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-9d3a8580cced5b5489891346c9621e57
+    projectPath: Temp\UnityTempFile-9d3a8580cced5b5489891346c9621e57
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-7ef6733c1be7d7f45b9422e895b2d5cb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-7ef6733c1be7d7f45b9422e895b2d5cb
-    projectPath: Temp\UnityTempFile-7ef6733c1be7d7f45b9422e895b2d5cb
+  - path: Temp\UnityTempFile-9e1434e13ef69074e929a3cb453ceff0
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-9e1434e13ef69074e929a3cb453ceff0
+    projectPath: Temp\UnityTempFile-9e1434e13ef69074e929a3cb453ceff0
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-8bd257fbee6269444a251f968d2d6152
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-8bd257fbee6269444a251f968d2d6152
-    projectPath: Temp\UnityTempFile-8bd257fbee6269444a251f968d2d6152
+  - path: Temp\UnityTempFile-a032ad0ef7c534a4cb1b9a5d5cc3c2df
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-a032ad0ef7c534a4cb1b9a5d5cc3c2df
+    projectPath: Temp\UnityTempFile-a032ad0ef7c534a4cb1b9a5d5cc3c2df
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-8f50238d3b160ca4598aee700f934963
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-8f50238d3b160ca4598aee700f934963
-    projectPath: Temp\UnityTempFile-8f50238d3b160ca4598aee700f934963
+  - path: Temp\UnityTempFile-a67306b48036d144a810a1dabd12a077
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-a67306b48036d144a810a1dabd12a077
+    projectPath: Temp\UnityTempFile-a67306b48036d144a810a1dabd12a077
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-90b84fd30cfb5e749b916f51ab1446fc
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-90b84fd30cfb5e749b916f51ab1446fc
-    projectPath: Temp\UnityTempFile-90b84fd30cfb5e749b916f51ab1446fc
+  - path: Temp\UnityTempFile-b4c8285804ea5a34ab5e5ec30739e47a
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-b4c8285804ea5a34ab5e5ec30739e47a
+    projectPath: Temp\UnityTempFile-b4c8285804ea5a34ab5e5ec30739e47a
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-96a36ffc86cc09948a46d37d3ada6dc7
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-96a36ffc86cc09948a46d37d3ada6dc7
-    projectPath: Temp\UnityTempFile-96a36ffc86cc09948a46d37d3ada6dc7
+  - path: Temp\UnityTempFile-b8bf554dbd152d44b8f62a926bcf7eda
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-b8bf554dbd152d44b8f62a926bcf7eda
+    projectPath: Temp\UnityTempFile-b8bf554dbd152d44b8f62a926bcf7eda
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-97a3256006ec50d4891c0bda75975ba2
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-97a3256006ec50d4891c0bda75975ba2
-    projectPath: Temp\UnityTempFile-97a3256006ec50d4891c0bda75975ba2
+  - path: Temp\UnityTempFile-c9129e42b87ba8e409ff4ca2a416bf25
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-c9129e42b87ba8e409ff4ca2a416bf25
+    projectPath: Temp\UnityTempFile-c9129e42b87ba8e409ff4ca2a416bf25
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-9af52449c8be7fb47b9b5c55253e48bf
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-9af52449c8be7fb47b9b5c55253e48bf
-    projectPath: Temp\UnityTempFile-9af52449c8be7fb47b9b5c55253e48bf
+  - path: Temp\UnityTempFile-cb127fce9e461e64e979b67c6eba666f
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-cb127fce9e461e64e979b67c6eba666f
+    projectPath: Temp\UnityTempFile-cb127fce9e461e64e979b67c6eba666f
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-9fc8ee395f99fd942a7ef61a4207cd56
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-9fc8ee395f99fd942a7ef61a4207cd56
-    projectPath: Temp\UnityTempFile-9fc8ee395f99fd942a7ef61a4207cd56
+  - path: Temp\UnityTempFile-cbb5a5dc5c4328048886c8ad0f965152
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-cbb5a5dc5c4328048886c8ad0f965152
+    projectPath: Temp\UnityTempFile-cbb5a5dc5c4328048886c8ad0f965152
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-aef85ce5c39d42646902f7c868347440
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-aef85ce5c39d42646902f7c868347440
-    projectPath: Temp\UnityTempFile-aef85ce5c39d42646902f7c868347440
+  - path: Temp\UnityTempFile-ccd51719bb166364b811cd98c89a7548
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-ccd51719bb166364b811cd98c89a7548
+    projectPath: Temp\UnityTempFile-ccd51719bb166364b811cd98c89a7548
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-b02a789da16756a4294634413f36bafb
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-b02a789da16756a4294634413f36bafb
-    projectPath: Temp\UnityTempFile-b02a789da16756a4294634413f36bafb
+  - path: Temp\UnityTempFile-d4723042d05277d40a656a0fff1fa816
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-d4723042d05277d40a656a0fff1fa816
+    projectPath: Temp\UnityTempFile-d4723042d05277d40a656a0fff1fa816
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-b0984b4dfff608b49b9a0bf53a81e924
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-b0984b4dfff608b49b9a0bf53a81e924
-    projectPath: Temp\UnityTempFile-b0984b4dfff608b49b9a0bf53a81e924
+  - path: Temp\UnityTempFile-e50b050ec345d3a49886134191aadb79
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-e50b050ec345d3a49886134191aadb79
+    projectPath: Temp\UnityTempFile-e50b050ec345d3a49886134191aadb79
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-b4cd5aba5d72a344fa54d1b457c9ccb7
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-b4cd5aba5d72a344fa54d1b457c9ccb7
-    projectPath: Temp\UnityTempFile-b4cd5aba5d72a344fa54d1b457c9ccb7
+  - path: Temp\UnityTempFile-e76b741bf5b46ae47a15799d3c9908bd
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-e76b741bf5b46ae47a15799d3c9908bd
+    projectPath: Temp\UnityTempFile-e76b741bf5b46ae47a15799d3c9908bd
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-caac4cde145185442a535c3747c89caa
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-caac4cde145185442a535c3747c89caa
-    projectPath: Temp\UnityTempFile-caac4cde145185442a535c3747c89caa
+  - path: Temp\UnityTempFile-ef93ee304c68e9542a3d8d7ab7fece84
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-ef93ee304c68e9542a3d8d7ab7fece84
+    projectPath: Temp\UnityTempFile-ef93ee304c68e9542a3d8d7ab7fece84
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-cc66ba309485229419e2d07fa135e3c9
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-cc66ba309485229419e2d07fa135e3c9
-    projectPath: Temp\UnityTempFile-cc66ba309485229419e2d07fa135e3c9
+  - path: Temp\UnityTempFile-f0bc81c90eeae77428653d18969db578
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-f0bc81c90eeae77428653d18969db578
+    projectPath: Temp\UnityTempFile-f0bc81c90eeae77428653d18969db578
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-cd60a711107807f43b3b9231902fbf9d
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-cd60a711107807f43b3b9231902fbf9d
-    projectPath: Temp\UnityTempFile-cd60a711107807f43b3b9231902fbf9d
+  - path: Temp\UnityTempFile-f1e43f5e37732ae44bf3067e6d9375e9
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-f1e43f5e37732ae44bf3067e6d9375e9
+    projectPath: Temp\UnityTempFile-f1e43f5e37732ae44bf3067e6d9375e9
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-d6e656e5189b6e344849cac44995d403
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-d6e656e5189b6e344849cac44995d403
-    projectPath: Temp\UnityTempFile-d6e656e5189b6e344849cac44995d403
+  - path: Temp\UnityTempFile-f277c2e85e8f1654c90b3e48ebfae726
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-f277c2e85e8f1654c90b3e48ebfae726
+    projectPath: Temp\UnityTempFile-f277c2e85e8f1654c90b3e48ebfae726
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-d85f8a7b7c8dbc74696394aa7ac04f7f
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-d85f8a7b7c8dbc74696394aa7ac04f7f
-    projectPath: Temp\UnityTempFile-d85f8a7b7c8dbc74696394aa7ac04f7f
+  - path: Temp\UnityTempFile-f76eecfbd59bd134d93a4219c57fac71
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-f76eecfbd59bd134d93a4219c57fac71
+    projectPath: Temp\UnityTempFile-f76eecfbd59bd134d93a4219c57fac71
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-d9da7e514f915ef4eba494a4bda18a82
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-d9da7e514f915ef4eba494a4bda18a82
-    projectPath: Temp\UnityTempFile-d9da7e514f915ef4eba494a4bda18a82
+  - path: Temp\UnityTempFile-fbf9a93f496f6e24cb0c836b44529b75
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-fbf9a93f496f6e24cb0c836b44529b75
+    projectPath: Temp\UnityTempFile-fbf9a93f496f6e24cb0c836b44529b75
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-dbf46e4a6e8cc3948a68516922577dce
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-dbf46e4a6e8cc3948a68516922577dce
-    projectPath: Temp\UnityTempFile-dbf46e4a6e8cc3948a68516922577dce
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-ee82ffce906e2c941a4a1bff575e2d70
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-ee82ffce906e2c941a4a1bff575e2d70
-    projectPath: Temp\UnityTempFile-ee82ffce906e2c941a4a1bff575e2d70
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-f3ee6b4555b1d7746a0dd9d3a4ec623d
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-f3ee6b4555b1d7746a0dd9d3a4ec623d
-    projectPath: Temp\UnityTempFile-f3ee6b4555b1d7746a0dd9d3a4ec623d
+  - path: Temp\UnityTempFile-fcee325306b8a3d41ad0359b2a7b119b
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-fcee325306b8a3d41ad0359b2a7b119b
+    projectPath: Temp\UnityTempFile-fcee325306b8a3d41ad0359b2a7b119b
     originalPath: 
     status: 1
     staged: 0

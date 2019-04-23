@@ -29,9 +29,12 @@ public class Spells : MonoBehaviour {
 	public GameObject projectile;
 
 	private bool isDrawing  = false;
-
+	
+	private Camera cam; 
 	void Start () {
 
+		cam = GameObject.Find("Camera").GetComponent<Camera>();
+		
 		//Load pre-made gestures
 		TextAsset[] gesturesXml = Resources.LoadAll<TextAsset> ("GestureSet/10-stylus-MEDIUM/");
 		foreach (TextAsset gestureXml in gesturesXml)
@@ -49,7 +52,7 @@ public class Spells : MonoBehaviour {
 		triggerValue = squeeze.GetAxis(handType);
 
 		//Convert the 3D position to 2D poition
-		virtualKeyPosition = Camera.main.WorldToScreenPoint (transform.position);
+		virtualKeyPosition = cam.WorldToScreenPoint (transform.position);
 
 		//Checks if we have pressed the Space key (Testing) or the trigger (HTC Vive users)
 		if (Input.GetKeyDown (KeyCode.Space) || grabPinch.GetStateDown(handType)) {
