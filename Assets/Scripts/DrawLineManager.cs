@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
+using Valve.VR.InteractionSystem;
 public class DrawLineManager : MonoBehaviour
 {
     public GameObject tracked_obj;
@@ -22,7 +23,7 @@ public class DrawLineManager : MonoBehaviour
     void Update()
     {
         if(SteamVR_Actions._default.GrabPinch.GetStateDown(handType) || Input.GetKeyDown(KeyCode.Space)) {
-
+          
             go = new GameObject();
 
             currLine = go.AddComponent<LineRenderer>();
