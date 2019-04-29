@@ -52,10 +52,10 @@ public class Spells : MonoBehaviour {
 		triggerValue = squeeze.GetAxis(handType);
 
 		//Convert the 3D position to 2D poition
-		virtualKeyPosition = cam.WorldToScreenPoint (transform.position);
+		virtualKeyPosition = transform.position;
 
 		//Checks if we have pressed the Space key (Testing) or the trigger (HTC Vive users)
-		if (Input.GetKeyDown (KeyCode.Space) || grabPinch.GetStateDown(handType)) {
+		if (grabPinch.GetStateDown(handType)) {
 			Debug.Log ("Evento raro");
 
 			//Checks if we have already recognize the gesture to clean the pointcloud
@@ -69,19 +69,21 @@ public class Spells : MonoBehaviour {
 		}
 
 		//Checks if we are holding the Space key (Testing) or the trigger (HTC Vive users)
-		if (Input.GetKey (KeyCode.Space) || triggerValue > 0.0f) {
+		if (triggerValue > 0.0f) {
 			//Add the position to the pointcloud array
 			points.Add (new Point (virtualKeyPosition.x, -virtualKeyPosition.y, strokeId));
 
 			//We are drawing a spell
 			isDrawing = true;
 			Debug.Log ("Drawing");
+
 		}
 		
 		//We have released trigger but there is available a drawing
 		if(triggerValue == 0.0f && isDrawing == true) {
 			isDrawing = false;
 			PredictGesture ();
+			points.Clear ();
 		}
 	}
 
@@ -98,7 +100,7 @@ public class Spells : MonoBehaviour {
 
 		score.text = gestureResult.GestureClass + " mastery " + (int)(gestureResult.Score*100);
 
-		fire();
+		//fire();
 	}
 
 	private void fire(){
