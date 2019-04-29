@@ -27,7 +27,7 @@ public class DrawLineManager : MonoBehaviour
             go = new GameObject();
 
             currLine = go.AddComponent<LineRenderer>();
-            currLine.startWidth = 0.1f;
+            currLine.startWidth = 0.005f;
             currLine.material = mat;
 
             numClicks = 0;
