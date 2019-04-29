@@ -13,13 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-<<<<<<< Updated upstream
-  lastUpdatedAtString: 2019-04-28T13:51:07.088+02:00
-  initializedAtString: 2019-04-28T13:51:07.088+02:00
-=======
-  lastUpdatedAtString: 2019-04-23T18:54:36.907+02:00
-  initializedAtString: 2019-04-23T18:54:36.907+02:00
->>>>>>> Stashed changes
+  lastUpdatedAtString: 2019-04-29T16:35:40.450+02:00
+  initializedAtString: 2019-04-29T16:35:40.450+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/baez97/CosmereWars.git
@@ -29,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: Bernardo_feature
+    tracking: 
   currentConfigBranch:
-    name: master
+    name: Bernardo_feature
     remote:
-      name: origin
-      url: https://github.com/baez97/CosmereWars.git
-    trackingBranch: master
+      name: 
+      url: 
+    trackingBranch: 
   currentConfigRemote:
     name: origin
     url: https://github.com/baez97/CosmereWars.git

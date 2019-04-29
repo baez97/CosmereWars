@@ -13,31 +13,84 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-<<<<<<< Updated upstream
-  lastUpdatedAtString: 2019-04-28T14:31:18.389+02:00
-  initializedAtString: 2019-04-28T13:51:14.690+02:00
+  lastUpdatedAtString: 2019-04-29T16:56:37.039+02:00
+  initializedAtString: 2019-04-29T16:35:43.071+02:00
   entries:
-  - path: Assets\GuillermoPrefabs\Obelisk.mat
-    fullPath: "D:\\guillermo\\Documents\\Universidad\\4\xBA Carrera\\2\xBA Cuatrimestre\\Virtual
-      Reality\\CosmereWars\\Assets\\GuillermoPrefabs\\Obelisk.mat"
-    projectPath: Assets\GuillermoPrefabs\Obelisk.mat
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assembly-CSharp-Editor.csproj
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assembly-CSharp-Editor.csproj
+    projectPath: Assembly-CSharp-Editor.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\New Terrain 1.asset
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\New Terrain 1.asset
+    projectPath: Assets\New Terrain 1.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\New Terrain 1.asset.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\New Terrain 1.asset.meta
+    projectPath: Assets\New Terrain 1.asset.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\PDollar\Scene\Demo.unity
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\PDollar\Scene\Demo.unity
+    projectPath: Assets\PDollar\Scene\Demo.unity
     originalPath: 
     status: 3
     staged: 0
   - path: Assets\Scenes\CognitiveRealm.unity
-    fullPath: "D:\\guillermo\\Documents\\Universidad\\4\xBA Carrera\\2\xBA Cuatrimestre\\Virtual
-      Reality\\CosmereWars\\Assets\\Scenes\\CognitiveRealm.unity"
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\Scenes\CognitiveRealm.unity
     projectPath: Assets\Scenes\CognitiveRealm.unity
     originalPath: 
     status: 3
     staged: 0
-=======
-  lastUpdatedAtString: 2019-04-23T20:17:35.076+02:00
-  initializedAtString: 2019-04-23T18:54:39.742+02:00
-  entries:
-  - path: Assets\Scripts\DrawLineManager.cs
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\Scripts\DrawLineManager.cs
-    projectPath: Assets\Scripts\DrawLineManager.cs
+  - path: Assets\Scenes\Elantris.unity
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\Scenes\Elantris.unity
+    projectPath: Assets\Scenes\Elantris.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scenes\New Scene.unity
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\Scenes\New Scene.unity
+    projectPath: Assets\Scenes\New Scene.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scenes\Scadrial.unity
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\Scenes\Scadrial.unity
+    projectPath: Assets\Scenes\Scadrial.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\EnemyMovement.cs
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\Scripts\EnemyMovement.cs
+    projectPath: Assets\Scripts\EnemyMovement.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\EnemyMovement.cs.meta
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\Scripts\EnemyMovement.cs.meta
+    projectPath: Assets\Scripts\EnemyMovement.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\HeadController.cs
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Assets\Scripts\HeadController.cs
+    projectPath: Assets\Scripts\HeadController.cs
     originalPath: 
     status: 3
     staged: 0
@@ -47,11 +100,17 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\EditorInstance.json
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
+  - path: Library\expandedItems
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\expandedItems
+    projectPath: Library\expandedItems
     originalPath: 
-    status: 1
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
     staged: 0
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\gfu\cache\gitstatusentries.yaml
@@ -63,7 +122,7 @@ MonoBehaviour:
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
-    status: 5
+    status: 3
     staged: 0
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\gfu\cache\repoinfo.yaml
@@ -71,9 +130,57 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\d9\d992a742c961279419cea85ce53edebc
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\d9\d992a742c961279419cea85ce53edebc
-    projectPath: Library\metadata\d9\d992a742c961279419cea85ce53edebc
+  - path: Library\metadata\00\00000000000000009000000000000000
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\00\00000000000000009000000000000000
+    projectPath: Library\metadata\00\00000000000000009000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\00\0000000000000000a100000000000000
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\00\0000000000000000a100000000000000
+    projectPath: Library\metadata\00\0000000000000000a100000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\19\19e2eee410c67c848ab3aa5e5636935d
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\19\19e2eee410c67c848ab3aa5e5636935d
+    projectPath: Library\metadata\19\19e2eee410c67c848ab3aa5e5636935d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\89\891ce59f45b17004baba26bc426843ec
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\89\891ce59f45b17004baba26bc426843ec
+    projectPath: Library\metadata\89\891ce59f45b17004baba26bc426843ec
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\ba\bacf025fd0d5b485e9ae059c8dd4eae6
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\ba\bacf025fd0d5b485e9ae059c8dd4eae6
+    projectPath: Library\metadata\ba\bacf025fd0d5b485e9ae059c8dd4eae6
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\c9\c9c14d7042d8d064cb03d1ad6d8760a0
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\c9\c9c14d7042d8d064cb03d1ad6d8760a0
+    projectPath: Library\metadata\c9\c9c14d7042d8d064cb03d1ad6d8760a0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\ea\eab723583654b794bab854f0b0ce3aba
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\ea\eab723583654b794bab854f0b0ce3aba
+    projectPath: Library\metadata\ea\eab723583654b794bab854f0b0ce3aba
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\fe\fe4c739358c439547a8c90d05029273e
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\metadata\fe\fe4c739358c439547a8c90d05029273e
+    projectPath: Library\metadata\fe\fe4c739358c439547a8c90d05029273e
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ProjectSettings.asset
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ProjectSettings.asset
+    projectPath: Library\ProjectSettings.asset
     originalPath: 
     status: 3
     staged: 0
@@ -89,11 +196,149 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     originalPath: 
-    status: 5
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\SteamVR.dll
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR.dll
+    projectPath: Library\ScriptAssemblies\SteamVR.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\SteamVR.pdb
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR.pdb
+    projectPath: Library\ScriptAssemblies\SteamVR.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\SteamVR_Actions.dll
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR_Actions.dll
+    projectPath: Library\ScriptAssemblies\SteamVR_Actions.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\SteamVR_Actions.pdb
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR_Actions.pdb
+    projectPath: Library\ScriptAssemblies\SteamVR_Actions.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\SteamVR_Editor.dll
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR_Editor.dll
+    projectPath: Library\ScriptAssemblies\SteamVR_Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\SteamVR_Editor.pdb
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR_Editor.pdb
+    projectPath: Library\ScriptAssemblies\SteamVR_Editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+    projectPath: Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\SteamVR_Input_Editor.pdb
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR_Input_Editor.pdb
+    projectPath: Library\ScriptAssemblies\SteamVR_Input_Editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+    projectPath: Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.pdb
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.pdb
+    projectPath: Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptMapper
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ScriptMapper
+    projectPath: Library\ScriptMapper
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ShaderCache.db
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\ShaderCache.db
+    projectPath: Library\ShaderCache.db
+    originalPath: 
+    status: 3
     staged: 0
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -101,28 +346,111 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    projectPath: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+  - path: Library\StateCache\Hierarchy\00870d-mainStage.json
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\StateCache\Hierarchy\00870d-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\00870d-mainStage.json
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
-  - path: Temp\UnityLockfile
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityLockfile
-    projectPath: Temp\UnityLockfile
+  - path: Library\StateCache\SceneView\8f6dab-mainStage.json
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Library\StateCache\SceneView\8f6dab-mainStage.json
+    projectPath: Library\StateCache\SceneView\8f6dab-mainStage.json
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
-  - path: Temp\UnityTempFile-04e5522d02317a445a97267420a41ada
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-04e5522d02317a445a97267420a41ada
-    projectPath: Temp\UnityTempFile-04e5522d02317a445a97267420a41ada
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
-  - path: Temp\UnityTempFile-3a5e418558497394b8ee766904967d34
-    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\Temp\UnityTempFile-3a5e418558497394b8ee766904967d34
-    projectPath: Temp\UnityTempFile-3a5e418558497394b8ee766904967d34
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
->>>>>>> Stashed changes
+  - path: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\SteamVR.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\SteamVR.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\SteamVR.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\SteamVR_Actions.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\SteamVR_Actions.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\SteamVR_Actions.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\SteamVR_Editor.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\SteamVR_Editor.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\SteamVR_Editor.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\SteamVR_Input_Editor.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\SteamVR_Input_Editor.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\SteamVR_Input_Editor.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\SteamVR_Windows_EditorHelper.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\obj\Debug\SteamVR_Windows_EditorHelper.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\SteamVR_Windows_EditorHelper.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings\ProjectSettings.asset
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings\ProjectVersion.txt
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\ProjectSettings\ProjectVersion.txt
+    projectPath: ProjectSettings\ProjectVersion.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: SteamVR.csproj
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\SteamVR.csproj
+    projectPath: SteamVR.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: SteamVR_Actions.csproj
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\SteamVR_Actions.csproj
+    projectPath: SteamVR_Actions.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: SteamVR_Editor.csproj
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\SteamVR_Editor.csproj
+    projectPath: SteamVR_Editor.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: SteamVR_Input_Editor.csproj
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\SteamVR_Input_Editor.csproj
+    projectPath: SteamVR_Input_Editor.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: SteamVR_Windows_EditorHelper.csproj
+    fullPath: C:\Users\Pc\Documents\GitHub\CosmereWars\SteamVR_Windows_EditorHelper.csproj
+    projectPath: SteamVR_Windows_EditorHelper.csproj
+    originalPath: 
+    status: 3
+    staged: 0
