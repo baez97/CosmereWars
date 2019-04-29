@@ -9,7 +9,7 @@ public class HeadController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayerPrefs.SetInt("Elantris", 1);
+        
     }
 
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class HeadController : MonoBehaviour
         Debug.Log("Collision" + col.gameObject.name);
 
 
-        if(col.gameObject.CompareTag("WorldPortal") && PlayerPrefs.GetInt(col.gameObject.name) == 1)
+        if(col.gameObject.CompareTag("WorldPortal"))
         {
 			Destroy (room);
             SceneManager.LoadScene(col.gameObject.name);
