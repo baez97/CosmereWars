@@ -3,8 +3,6 @@
 
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
-using Valve.VR;
-using Valve.VR.InteractionSystem;
 
 namespace Fungus
 {
@@ -47,8 +45,6 @@ namespace Fungus
         protected float ignoreClickTimer;
 
         protected StandaloneInputModule currentStandaloneInputModule;
-		private SteamVR_Input_Sources handType = SteamVR_Input_Sources.RightHand;
-
 
         protected Writer writer;
 
@@ -94,7 +90,6 @@ namespace Fungus
                     (cancelEnabled && Input.GetButton(currentStandaloneInputModule.cancelButton)))
                 {
                     SetNextLineFlag();
-					Debug.Log("Boton pulsado");
                 }
             }
 
@@ -103,10 +98,9 @@ namespace Fungus
             case ClickMode.Disabled:
                 break;
             case ClickMode.ClickAnywhere:
-				if (Input.GetMouseButtonDown(0) || SteamVR_Actions._default.GrabPinch.GetStateDown(handType))
+                if (Input.GetMouseButtonDown(0))
                 {
                     SetNextLineFlag();
-					Debug.Log("Raton pulsado");
                 }
                 break;
             case ClickMode.ClickOnDialog:
