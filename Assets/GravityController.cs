@@ -11,4 +11,22 @@ public class GravityController : MonoBehaviour
         rb = gameobject.GetComponent<Rigidbody>();
         rb.useGravity = true;
     }
+
+    public void detach(string name){
+        if (name == "Elantris"){
+            WorldController.droppedElantris = true;
+        }
+
+        if (name == "Roshar"){
+            WorldController.droppedRoshar = true;
+
+        }
+
+        if (name == "Scadrial"){
+            WorldController.droppedScadrial = true;
+
+        }
+
+
+    }
 }
