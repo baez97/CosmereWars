@@ -34,14 +34,14 @@ public class SimpleVehicle : MonoBehaviour {
         y = touchpadAction.GetAxis(SteamVR_Input_Sources.LeftHand)[1];
         
         //For keyboard
-        currentMoveSpeed = moveSpeed * Input.GetAxis("Vertical");
-        currentTurnSpeed = turnSpeed * Input.GetAxis("Horizontal");
+        //currentMoveSpeed = moveSpeed * Input.GetAxis("Vertical");
+        //currentTurnSpeed = turnSpeed * Input.GetAxis("Horizontal");
         
         //For touchpad
-        /*
+    
         currentMoveSpeed = moveSpeed * y;
         currentTurnSpeed = turnSpeed * x;
-        */
+    
 
         myRB.velocity = myTransform.forward * currentMoveSpeed;
         myRB.angularVelocity = turnVector * currentTurnSpeed;
