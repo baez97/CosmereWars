@@ -150,7 +150,7 @@ GameObject:
   - component: {fileID: 4882914989025602}
   - component: {fileID: 33407584003241822}
   - component: {fileID: 23221504225770740}
-  - component: {fileID: 4232361492494230783}
+  - component: {fileID: 4177647498185096794}
   m_Layer: 0
   m_Name: mace_low
   m_TagString: Untagged
@@ -217,7 +217,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &4232361492494230783
+--- !u!65 &4177647498185096794
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -424,6 +424,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4700708909579522}
   - component: {fileID: 137104908616848470}
+  - component: {fileID: 2029349359813232465}
+  - component: {fileID: 7707896996336959504}
   m_Layer: 0
   m_Name: troll_body_low
   m_TagString: Untagged
@@ -575,6 +577,33 @@ SkinnedMeshRenderer:
     m_Center: {x: 4.8185654, y: -16.3647, z: 6.0642242}
     m_Extent: {x: 228.76251, y: 123.81604, z: 150.13309}
   m_DirtyAABB: 0
+--- !u!65 &2029349359813232465
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167264558955206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 329.68658, y: 325.8188, z: 511.76868}
+  m_Center: {x: -5.828258, y: 16.142765, z: 180.49628}
+--- !u!136 &7707896996336959504
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167264558955206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 255.88434
+  m_Height: 325.8188
+  m_Direction: 1
+  m_Center: {x: -5.828258, y: 16.142765, z: 180.49628}
 --- !u!1 &1173342735845460
 GameObject:
   m_ObjectHideFlags: 0
@@ -3104,10 +3133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4876443625621520}
   - component: {fileID: 95309135661054092}
-  - component: {fileID: 4835831908714198449}
-  - component: {fileID: 3326041108094888684}
-  - component: {fileID: 7132943246251120345}
-  - component: {fileID: 1784254915152762469}
   m_Layer: 0
   m_Name: troll
   m_TagString: Untagged
@@ -3157,69 +3182,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4835831908714198449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862107410815556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 617fddf1a699fcf4bbd7842ab6549fb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!195 &3326041108094888684
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862107410815556}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 10
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 10
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!54 &7132943246251120345
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862107410815556}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &1784254915152762469
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862107410815556}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.4154167, y: 3.687379, z: 1.2486541}
-  m_Center: {x: 0.009563386, y: 1.8505611, z: -0.05738175}
 --- !u!1 &1868828153997032
 GameObject:
   m_ObjectHideFlags: 0

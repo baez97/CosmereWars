@@ -18,7 +18,7 @@ public class Spells : MonoBehaviour {
 	private bool recognized;
 
 	//UI Element
-	public Text score;
+	//public Text score;
 
 //SteamVR Input Actions
 	public SteamVR_Action_Single squeeze;
@@ -29,11 +29,12 @@ public class Spells : MonoBehaviour {
 	public GameObject projectile;
 
 	private bool isDrawing  = false;
+
+	public GameObject tracked_Obj;
 	
-	private Camera cam; 
 	void Start () {
 
-		cam = GameObject.Find("Camera").GetComponent<Camera>();
+		
 		
 		//Load pre-made gestures
 		TextAsset[] gesturesXml = Resources.LoadAll<TextAsset> ("GestureSet/10-stylus-MEDIUM/");
@@ -44,10 +45,12 @@ public class Spells : MonoBehaviour {
 		string[] filePaths = Directory.GetFiles (Application.persistentDataPath, "*.xml");
 		foreach (string filePath in filePaths)
 			trainingSet.Add (GestureIO.ReadGestureFromFile (filePath));
+
 	}
 
 	void Update () {
-		Debug.Log(transform.forward);
+		
+
 		//Gets the trigger value ranged between 0.0 and 1.0
 		triggerValue = squeeze.GetAxis(handType);
 
@@ -85,6 +88,11 @@ public class Spells : MonoBehaviour {
 			PredictGesture ();
 			points.Clear ();
 		}
+
+		//Testing part
+		if(Input.GetKeyDown(KeyCode.Space)) {
+			fire();
+		}
 	}
 
 
@@ -98,18 +106,17 @@ public class Spells : MonoBehaviour {
 		message = gestureResult.GestureClass + " " + gestureResult.Score;
 		Debug.Log (message);
 
-		score.text = gestureResult.GestureClass + " mastery " + (int)(gestureResult.Score*100);
+		//score.text = gestureResult.GestureClass + " mastery " + (int)(gestureResult.Score*100);
 
-		//fire();
+		fire();
 	}
 
 	private void fire(){
-		GameObject fireball = Instantiate(projectile,transform.position,transform.rotation);
+		GameObject fireball = Instantiate(projectile,tracked_Obj.transform.position,tracked_Obj.transform.rotation);
            
 		Rigidbody rb = fireball.GetComponent<Rigidbody>();
 		
 		rb.velocity = transform.forward * 20;
 
-		Debug.Log("Fire" + transform.position);
 	}
 }
