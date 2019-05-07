@@ -23,11 +23,16 @@ public class Spells : MonoBehaviour {
 	//SteamVR Input Actions
 	public SteamVR_Action_Boolean grabPinch;
 	public SteamVR_Input_Sources handType;
-	public GameObject projectile;
+    public GameObject vrCamera;
+	public GameObject[] projectiles;
 	private bool isDrawing  = false;
 	public GameObject tracked_Obj;
+
+	private Camera cam;
 	
 	void Start () {
+
+		cam = Camera.main;
 
 		//Load pre-made gestures
 		TextAsset[] gesturesXml = Resources.LoadAll<TextAsset> ("GestureSet/10-stylus-MEDIUM/");
@@ -79,11 +84,7 @@ public class Spells : MonoBehaviour {
 			PredictGesture ();
 			points.Clear ();
 		}
-
-		//Testing part
-		if(Input.GetKeyDown(KeyCode.Space)) {
-			fire();
-		}
+         
 	}
 
 
@@ -97,17 +98,29 @@ public class Spells : MonoBehaviour {
 		message = gestureResult.GestureClass + " " + gestureResult.Score;
 		Debug.Log (message);
 
-		//score.text = gestureResult.GestureClass + " mastery " + (int)(gestureResult.Score*100);
+        //score.text = gestureResult.GestureClass + " mastery " + (int)(gestureResult.Score*100);
 
-		fire();
+        string gestureString = gestureResult.GestureClass;
+        if ( gestureResult.Score > 0.6f )
+        {
+            if ( string.Equals(gestureString, "five point star") )
+            {
+		        fire(projectiles[0]);
+            }
+            else if ( string.Equals(gestureString, "P") )
+            {
+                fire(projectiles[1]);
+            } 
+        }
 	}
 
-	private void fire(){
-		GameObject fireball = Instantiate(projectile,tracked_Obj.transform.position,tracked_Obj.transform.rotation);
+	private void fire(GameObject projectile){
+        Debug.Log(vrCamera.transform.position);
+        Debug.Log(vrCamera.transform.rotation);
+		GameObject fireball = Instantiate(projectile,vrCamera.transform.position,vrCamera.transform.rotation);
            
 		Rigidbody rb = fireball.GetComponent<Rigidbody>();
 		
-		rb.velocity = transform.forward * 20;
-
+		rb.velocity = vrCamera.transform.forward * 20;
 	}
 }

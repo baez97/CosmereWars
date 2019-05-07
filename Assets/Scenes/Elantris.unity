@@ -1097,6 +1097,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1196805184 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 125964, guid: dc06161b6d97feb419f45f03b62e14b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 297629693}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1390656047 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 160596, guid: dc06161b6d97feb419f45f03b62e14b9,
@@ -1119,8 +1125,8 @@ MonoBehaviour:
     actionPath: /actions/default/in/GrabPinch
     needsReinit: 0
   handType: 2
-  projectile: {fileID: 8285766864917007073, guid: 2d54efd08b38f9f498a6dcf38930deac,
-    type: 3}
+  vrCamera: {fileID: 0}
+  projectiles: []
   tracked_Obj: {fileID: 0}
 --- !u!1001 &1438461907
 PrefabInstance:
@@ -1451,7 +1457,10 @@ MonoBehaviour:
     actionPath: /actions/default/in/GrabPinch
     needsReinit: 0
   handType: 2
-  projectile: {fileID: 100006, guid: 906ef3748a66347cfb2d72de10092732, type: 3}
+  vrCamera: {fileID: 1196805184}
+  projectiles:
+  - {fileID: 100006, guid: 906ef3748a66347cfb2d72de10092732, type: 3}
+  - {fileID: 100002, guid: 391ec6f1311384e75b4888fd6fc26b7e, type: 3}
   tracked_Obj: {fileID: 1390656047}
 --- !u!1 &1939269320
 GameObject:
