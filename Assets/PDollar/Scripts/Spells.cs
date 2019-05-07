@@ -26,8 +26,12 @@ public class Spells : MonoBehaviour {
 	public GameObject projectile;
 	private bool isDrawing  = false;
 	public GameObject tracked_Obj;
+
+	private Camera cam;
 	
 	void Start () {
+
+		cam = Camera.main;
 
 		//Load pre-made gestures
 		TextAsset[] gesturesXml = Resources.LoadAll<TextAsset> ("GestureSet/10-stylus-MEDIUM/");
@@ -103,7 +107,7 @@ public class Spells : MonoBehaviour {
 	}
 
 	private void fire(){
-		GameObject fireball = Instantiate(projectile,tracked_Obj.transform.position,tracked_Obj.transform.rotation);
+		GameObject fireball = Instantiate(projectile,cam.transform.position,cam.transform.rotation);
            
 		Rigidbody rb = fireball.GetComponent<Rigidbody>();
 		
