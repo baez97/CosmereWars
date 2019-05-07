@@ -1115,9 +1115,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 120d49341ea36a6439e316e39fef7e41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  squeeze:
-    actionPath: /actions/default/in/Squeeze
-    needsReinit: 0
   grabPinch:
     actionPath: /actions/default/in/GrabPinch
     needsReinit: 0
@@ -1450,9 +1447,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 120d49341ea36a6439e316e39fef7e41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  squeeze:
-    actionPath: /actions/default/in/Squeeze
-    needsReinit: 0
   grabPinch:
     actionPath: /actions/default/in/GrabPinch
     needsReinit: 0
