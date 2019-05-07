@@ -18,23 +18,17 @@ public class Spells : MonoBehaviour {
 	private bool recognized;
 
 	//UI Element
-	public Text score;
+	//public Text score;
 
-//SteamVR Input Actions
-	public SteamVR_Action_Single squeeze;
+	//SteamVR Input Actions
 	public SteamVR_Action_Boolean grabPinch;
-	private float triggerValue;
 	public SteamVR_Input_Sources handType;
-
 	public GameObject projectile;
-
 	private bool isDrawing  = false;
+	public GameObject tracked_Obj;
 	
-	private Camera cam; 
 	void Start () {
 
-		cam = GameObject.Find("Camera").GetComponent<Camera>();
-		
 		//Load pre-made gestures
 		TextAsset[] gesturesXml = Resources.LoadAll<TextAsset> ("GestureSet/10-stylus-MEDIUM/");
 		foreach (TextAsset gestureXml in gesturesXml)
@@ -44,17 +38,16 @@ public class Spells : MonoBehaviour {
 		string[] filePaths = Directory.GetFiles (Application.persistentDataPath, "*.xml");
 		foreach (string filePath in filePaths)
 			trainingSet.Add (GestureIO.ReadGestureFromFile (filePath));
+
 	}
 
 	void Update () {
-		Debug.Log(transform.forward);
-		//Gets the trigger value ranged between 0.0 and 1.0
-		triggerValue = squeeze.GetAxis(handType);
-
+	
 		//Convert the 3D position to 2D poition
-		virtualKeyPosition = transform.position;
+		virtualKeyPosition = tracked_Obj.transform.position;
 
 		//Checks if we have pressed the Space key (Testing) or the trigger (HTC Vive users)
+
 		if (grabPinch.GetStateDown(handType)) {
 			Debug.Log ("Evento raro");
 
@@ -69,7 +62,7 @@ public class Spells : MonoBehaviour {
 		}
 
 		//Checks if we are holding the Space key (Testing) or the trigger (HTC Vive users)
-		if (triggerValue > 0.0f) {
+		if (grabPinch.GetState(handType)) {
 			//Add the position to the pointcloud array
 			points.Add (new Point (virtualKeyPosition.x, -virtualKeyPosition.y, strokeId));
 
@@ -80,10 +73,16 @@ public class Spells : MonoBehaviour {
 		}
 		
 		//We have released trigger but there is available a drawing
-		if(triggerValue == 0.0f && isDrawing == true) {
+		
+		if(!grabPinch.GetState(handType) && isDrawing) {
 			isDrawing = false;
 			PredictGesture ();
 			points.Clear ();
+		}
+
+		//Testing part
+		if(Input.GetKeyDown(KeyCode.Space)) {
+			fire();
 		}
 	}
 
@@ -98,18 +97,17 @@ public class Spells : MonoBehaviour {
 		message = gestureResult.GestureClass + " " + gestureResult.Score;
 		Debug.Log (message);
 
-		score.text = gestureResult.GestureClass + " mastery " + (int)(gestureResult.Score*100);
+		//score.text = gestureResult.GestureClass + " mastery " + (int)(gestureResult.Score*100);
 
-		//fire();
+		fire();
 	}
 
 	private void fire(){
-		GameObject fireball = Instantiate(projectile,transform.position,transform.rotation);
+		GameObject fireball = Instantiate(projectile,tracked_Obj.transform.position,tracked_Obj.transform.rotation);
            
 		Rigidbody rb = fireball.GetComponent<Rigidbody>();
 		
 		rb.velocity = transform.forward * 20;
 
-		Debug.Log("Fire" + transform.position);
 	}
 }

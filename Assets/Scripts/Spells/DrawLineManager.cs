@@ -14,10 +14,6 @@ public class DrawLineManager : MonoBehaviour
     private int numClicks;
     private GameObject go;
 
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
@@ -35,9 +31,6 @@ public class DrawLineManager : MonoBehaviour
         } 
 
         else if (SteamVR_Actions._default.GrabPinch.GetState(handType) || Input.GetKey(KeyCode.Space)) {
-            //Obsoleto
-            //currLine.SetVertexCount(numClicks + 1);
-
             //Actualizado
             currLine.positionCount = numClicks + 1;
 
