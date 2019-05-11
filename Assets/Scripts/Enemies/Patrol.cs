@@ -9,23 +9,10 @@
         public GameObject[] points;
         private int destPoint = 0;
         private NavMeshAgent agent;
+        bool activated = false;
 
-
-        void Start () {
-            agent = GetComponent<NavMeshAgent>();
-
-            // Disabling auto-braking allows for continuous movement
-            // between points (ie, the agent doesn't slow down as it
-            // approaches a destination point).
-            agent.autoBraking = false;
-
-            destPoint = Random.Range (0, points.Length);
-
-            this.agent.transform.position = points[destPoint].transform.position;
-            
-            GotoNextPoint();
-        }
-
+        public GameObject body;
+        public GameObject weapon;
 
         void GotoNextPoint() {
             // Returns if no points have been set up
@@ -39,14 +26,48 @@
             this.agent.SetDestination(points[destPoint].transform.position);
         }
 
+        private void Start() {
+            body.GetComponent<SkinnedMeshRenderer>().enabled=false;
+            weapon.GetComponent<MeshRenderer>().enabled=false;
+        }
+
 
         void Update () {
             // Choose the next destination point when the agent gets
             // close to the current one.
-           
-            if (!agent.pathPending && agent.remainingDistance < 0.5f) {
+        
+
+            if (activated && !agent.pathPending && agent.remainingDistance < 0.5f) {
                 GotoNextPoint();
-    
+                Debug.Log("SD1");
             }
+
+            if (TrollController.deathEnemies >= 0 && activated == false) {
+                
+                body.GetComponent<SkinnedMeshRenderer>().enabled=true;
+                weapon.GetComponent<MeshRenderer>().enabled=true;
+                
+                agent = GetComponent<NavMeshAgent>();
+                agent.autoBraking = false;
+
+                destPoint = Random.Range (0, points.Length);
+                transform.position = points[destPoint].transform.position;
+                Debug.Log(destPoint);
+            
+                GotoNextPoint();
+
+                activated = true;
+            }
+        }
+
+        void OnTriggerEnter(Collider obj) {
+
+            Debug.Log("Enemy collided: " + obj.gameObject.name);
+
+            if(obj.gameObject.name == "Blade Collider") {
+
+
+            }
+       
         }
     }

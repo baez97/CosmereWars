@@ -30,14 +30,16 @@ public class SimpleVehicle : MonoBehaviour {
 	
 	void FixedUpdate ()
     {
-        x = touchpadAction.GetAxis(SteamVR_Input_Sources.LeftHand)[0];
-        y = touchpadAction.GetAxis(SteamVR_Input_Sources.LeftHand)[1];
+        if (touchpadAction.GetActive(SteamVR_Input_Sources.LeftHand)) {
+            x = touchpadAction.GetAxis(SteamVR_Input_Sources.LeftHand)[0];
+            y = touchpadAction.GetAxis(SteamVR_Input_Sources.LeftHand)[1];
+        }
+
+        else {
+            x = Input.GetAxis("Horizontal");
+            y = Input.GetAxis("Vertical");
+        }
         
-        //For keyboard
-        //currentMoveSpeed = moveSpeed * Input.GetAxis("Vertical");
-        //currentTurnSpeed = turnSpeed * Input.GetAxis("Horizontal");
-        
-        //For touchpad
     
         currentMoveSpeed = moveSpeed * y;
         currentTurnSpeed = turnSpeed * x;
