@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RosharStoryController : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class RosharStoryController : MonoBehaviour
     public GameObject sylFire;
     public GameObject sword;
     public GameObject swordFire;
+    public GameObject enemyManager;
+    public GameObject endgameFlowChart;
+    public GameObject Room;
 
     void disableSyl(){
         syl.SetActive(false);
@@ -31,5 +35,20 @@ public class RosharStoryController : MonoBehaviour
 
     void disableSwordFire(){
         swordFire.SetActive(false);
+    }
+
+    void enableEnemyManager(){
+        enemyManager.SetActive(true);
+    }
+
+    void enableEndgameFlowchart(){
+        endgameFlowChart.SetActive(true);
+    }
+
+    void travelToCR(){
+        Destroy(Room);
+        SceneManager.LoadScene("CognitiveRealm");
+        PlayerPrefs.SetInt(StoryController.ScadrialActive, 1);
+
     }
 }
