@@ -13,6 +13,7 @@
 
         public GameObject body;
         public GameObject weapon;
+        public GameObject endgame;
 
         void GotoNextPoint() {
             // Returns if no points have been set up
@@ -65,9 +66,8 @@
             Debug.Log("Enemy collided: " + obj.gameObject.name);
 
             if(obj.gameObject.name == "Blade Collider") {
-
-
+                endgame.SetActive(true);
             }
-       
+        
         }
     }
