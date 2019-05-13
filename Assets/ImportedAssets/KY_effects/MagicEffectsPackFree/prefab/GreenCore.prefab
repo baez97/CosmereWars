@@ -5011,9 +5011,10 @@ GameObject:
   - component: {fileID: 19800002}
   - component: {fileID: 19900002}
   - component: {fileID: 1048174303071015770}
+  - component: {fileID: 2846687171354571568}
   m_Layer: 0
   m_Name: GreenCore
-  m_TagString: Untagged
+  m_TagString: FivePointStar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9796,6 +9797,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2846687171354571568
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.855673, y: 2.8515115, z: 2.8399997}
+  m_Center: {x: -0.00086629385, y: 0.0011692643, z: 2.581757e-11}
 --- !u!1 &100008
 GameObject:
   m_ObjectHideFlags: 0

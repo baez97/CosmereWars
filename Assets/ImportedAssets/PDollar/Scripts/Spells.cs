@@ -29,6 +29,8 @@ public class Spells : MonoBehaviour {
 	public GameObject tracked_Obj;
 
 	private Camera cam;
+
+	public static bool enableP = false;
 	
 	void Start () {
 
