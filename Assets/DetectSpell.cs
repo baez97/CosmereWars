@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class DetectSpell : MonoBehaviour
 {
@@ -9,15 +8,14 @@ public class DetectSpell : MonoBehaviour
     private bool isP = false;
     private bool isStar = false;
 
-    public GameObject room;
+    public GameObject endflow;
 
     // Update is called once per frame
     void Update()
     {
         if (isP && isStar) {
-            Debug.Log("Has terminado tutorial");
-            Destroy(room);
-            SceneManager.LoadScene("ElantrisFinalBattle");
+            endflow.SetActive(true);
+
         } 
     }
     

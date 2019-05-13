@@ -48,7 +48,7 @@ public class RosharStoryController : MonoBehaviour
     void travelToCR(){
         Destroy(Room);
         SceneManager.LoadScene("CognitiveRealm");
-        PlayerPrefs.SetInt(StoryController.ScadrialActive, 1);
+        PlayerPrefs.SetInt(StoryController.ElantrisActive, 1);
 
     }
 }

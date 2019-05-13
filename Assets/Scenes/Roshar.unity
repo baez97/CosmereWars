@@ -2993,7 +2993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 593961044}
+  selectedFlowchart: {fileID: 716269912}
 --- !u!4 &381140760
 Transform:
   m_ObjectHideFlags: 1
@@ -6923,7 +6923,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 716269911}
   selectedCommands:
-  - {fileID: 716269915}
+  - {fileID: 716269914}
   variables: []
   description: 
   stepPause: 0
@@ -10917,7 +10917,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1254664328
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10954,10 +10954,6 @@ MonoBehaviour:
   nextClickDelay: 0
   cancelEnabled: 1
   ignoreMenuClicks: 1
-  grabPinch:
-    actionPath: /actions/default/in/GrabPinch
-    needsReinit: 0
-  handType: 0
 --- !u!82 &1254664330
 AudioSource:
   m_ObjectHideFlags: 0

@@ -1,32 +1,36 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR;
+using Valve.VR.InteractionSystem;
 
 public class CoinManager : MonoBehaviour
 {
-    public GameObject trackedObj;
-    private GameObject currentCoin;
-    public GameObject coinPrefab;
+    private Rigidbody rb;
+
+        private SteamVR_Input_Sources handType = SteamVR_Input_Sources.RightHand;
+
     // Start is called before the first frame update
     void Start()
     {
-		AttachCoin();
-
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
+      if (Input.GetKeyDown("space") || SteamVR_Actions._default.GrabPinch.GetStateDown(handType))
+        {
+            //thrown = true;
+            Debug.Log("space key was pressed");
+            rb.velocity = new Vector3(rb.velocity.x * 10, 0, rb.velocity.z * 10);
+        }
     }
 
-    public void AttachCoin(){
-            currentCoin = Instantiate(coinPrefab);
-            currentCoin.transform.parent = trackedObj.transform;
-			currentCoin.transform.localPosition = new Vector3(0f, 0f, 0f);        
+    public void EnableGravity(){
+      rb.isKinematic = false;
+      rb.useGravity = true;
     }
 
-	public void RemoveCoin(){
-		currentCoin = null;
-	}
 
 }

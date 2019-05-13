@@ -5,26 +5,26 @@ using UnityEngine;
 public class StoryController : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject roshar;
+    public GameObject elantris;
     public GameObject scadrial;
     public GameObject endgame;
     public GameObject syl;
     public GameObject kelsier;
     public static string ScadrialActive = "ScadrialActive";
-    public static string RosharActive = "RosharActive";
+    public static string ElantrisActive = "ElantrisActive";
     public static string EndgameActive = "EndgameActive";
 
     void Start()
     {
         int isScadrialActive = PlayerPrefs.GetInt(StoryController.ScadrialActive);
-        int isRosharActive = PlayerPrefs.GetInt(StoryController.RosharActive);
+        int isElantrisActive = PlayerPrefs.GetInt(StoryController.ElantrisActive);
         int isEndgameActive = PlayerPrefs.GetInt(StoryController.EndgameActive);
         if (isScadrialActive == 1){
             scadrial.SetActive(true);
             syl.SetActive(true);
         }
-        if (isRosharActive == 1){
-            roshar.SetActive(true);
+        if (isElantrisActive == 1){
+            elantris.SetActive(true);
         }
 
         if(isEndgameActive == 1){

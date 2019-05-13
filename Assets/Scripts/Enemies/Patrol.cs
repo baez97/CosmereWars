@@ -11,6 +11,9 @@
         private NavMeshAgent agent;
         bool activated = false;
 
+        Animator anim;
+
+
         public GameObject body;
         public GameObject weapon;
         public GameObject endgame;
@@ -30,6 +33,9 @@
         private void Start() {
             body.GetComponent<SkinnedMeshRenderer>().enabled=false;
             weapon.GetComponent<MeshRenderer>().enabled=false;
+
+            anim = GetComponent<Animator>();
+            anim.SetTrigger("Run");
         }
 
 
