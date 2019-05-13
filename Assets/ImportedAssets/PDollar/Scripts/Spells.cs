@@ -31,6 +31,7 @@ public class Spells : MonoBehaviour {
 	private Camera cam;
 
 	public static bool enableP = false;
+	public static bool enable5Start = false;
 	
 	void Start () {
 
@@ -105,11 +106,11 @@ public class Spells : MonoBehaviour {
         string gestureString = gestureResult.GestureClass;
         if ( gestureResult.Score > 0.6f )
         {
-            if ( string.Equals(gestureString, "five point star") )
+            if ( string.Equals(gestureString, "five point star") && enable5Start )
             {
 		        fire(projectiles[0]);
             }
-            else if ( string.Equals(gestureString, "P") )
+            else if ( string.Equals(gestureString, "P") && enableP)
             {
                 fire(projectiles[1]);
             } 
