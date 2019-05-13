@@ -16,6 +16,7 @@ public class SimpleVehicle : MonoBehaviour {
     private Rigidbody myRB;
 
     private Vector3 joyStickRotation;
+    public GameObject player;
 
     public SteamVR_Action_Vector2 touchpadAction;
 
@@ -28,25 +29,32 @@ public class SimpleVehicle : MonoBehaviour {
         myRB = GetComponent<Rigidbody>();
    }
 	
-	void FixedUpdate ()
+	void Update ()
     {
-        if (touchpadAction.GetActive(SteamVR_Input_Sources.LeftHand)) {
+         if (touchpadAction.GetActive(SteamVR_Input_Sources.LeftHand)) {
             x = touchpadAction.GetAxis(SteamVR_Input_Sources.LeftHand)[0];
             y = touchpadAction.GetAxis(SteamVR_Input_Sources.LeftHand)[1];
-        }
+         }
 
-        else {
-            x = Input.GetAxis("Horizontal");
-            y = Input.GetAxis("Vertical");
-        }
+        // else {
+        //     x = Input.GetAxis("Horizontal");
+        //     y = Input.GetAxis("Vertical");
+        // }
         
     
         currentMoveSpeed = moveSpeed * y;
         currentTurnSpeed = turnSpeed * x;
+        
+        if(Mathf.Abs(y) > 0.5){
+            myRB.velocity = player.transform.forward * moveSpeed * y;
+        }
     
 
-        myRB.velocity = myTransform.forward * currentMoveSpeed;
-        myRB.angularVelocity = turnVector * currentTurnSpeed;
+        //myRB.velocity = myTransform.forward * currentMoveSpeed;
+        //myRB.angularVelocity = turnVector * currentTurnSpeed;
+
+        // this.transform.rotation = player.transform.rotation;
+        // player.transform.rotation = this.transform.rotation;
 
         joyStickRotation.x = currentMoveSpeed;
         joyStickRotation.y = -currentTurnSpeed * 10;

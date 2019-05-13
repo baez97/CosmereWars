@@ -3,6 +3,8 @@
 
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
+using Valve.VR;
+
 
 namespace Fungus
 {
@@ -47,6 +49,9 @@ namespace Fungus
         protected StandaloneInputModule currentStandaloneInputModule;
 
         protected Writer writer;
+        public SteamVR_Action_Boolean grabPinch;
+        	public SteamVR_Input_Sources handType;
+
 
         protected virtual void Awake()
         {
@@ -87,7 +92,7 @@ namespace Fungus
             if (writer != null && writer.IsWriting)
             {
                 if (Input.GetButtonDown(currentStandaloneInputModule.submitButton) ||
-                    (cancelEnabled && Input.GetButton(currentStandaloneInputModule.cancelButton)))
+                    (cancelEnabled && Input.GetButton(currentStandaloneInputModule.cancelButton)) || grabPinch.GetState(handType))
                 {
                     SetNextLineFlag();
                 }
@@ -98,7 +103,7 @@ namespace Fungus
             case ClickMode.Disabled:
                 break;
             case ClickMode.ClickAnywhere:
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetMouseButtonDown(0) || grabPinch.GetState(handType))
                 {
                     SetNextLineFlag();
                 }
