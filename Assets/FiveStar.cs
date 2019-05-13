@@ -17,8 +17,9 @@ public class FiveStar : MonoBehaviour
     {
         float dist = Vector3.Distance(tracked_obj.transform.position, transform.position);
 
-        if (dist < 10.0f) {
-            Spells.enableP = true;
+        if (dist < 5.0f && !Spells.enableStar) {
+            Debug.Log("ACTIVANDO LA ESTRELLA");
+            Spells.enableStar = true;
         }
     }
 }

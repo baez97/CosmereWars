@@ -12,9 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Scadrial.unity
     guid: eab723583654b794bab854f0b0ce3aba
   - enabled: 1
-    path: Assets/Scenes/ElantrisTutorial.unity
+    path: Assets/Scenes/Elantris.unity
     guid: 19e2eee410c67c848ab3aa5e5636935d
   - enabled: 1
     path: Assets/Scenes/Roshar.unity
     guid: 1d74def0717064b08bb28b2a7fcdc9b2
+  - enabled: 1
+    path: Assets/Scenes/ElantrisFinalBattle.unity
+    guid: c4a04f00ba902bf40a572faa9b30500e
   m_configObjects: {}

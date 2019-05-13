@@ -17,7 +17,8 @@ public class PSymbol : MonoBehaviour
     {
         float dist = Vector3.Distance(tracked_obj.transform.position, transform.position);
 
-        if (dist < 10.0f) {
+        if (dist < 5.0f && !Spells.enableP) {
+            Debug.Log("ACTIVANDO LA P");
             Spells.enableP = true;
         }
     }

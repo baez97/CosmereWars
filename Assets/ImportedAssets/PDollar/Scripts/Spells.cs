@@ -31,7 +31,8 @@ public class Spells : MonoBehaviour {
 	private Camera cam;
 
 	public static bool enableP = false;
-	public static bool enable5Start = false;
+	public GameObject greenSound;
+	public static bool enableStar = false;
 	
 	void Start () {
 
@@ -57,7 +58,7 @@ public class Spells : MonoBehaviour {
 		//Checks if we have pressed the Space key (Testing) or the trigger (HTC Vive users)
 
 		if (grabPinch.GetStateDown(handType)) {
-			Debug.Log ("Evento raro");
+			//Debug.Log ("Evento raro");
 
 			//Checks if we have already recognize the gesture to clean the pointcloud
 			if (recognized) {
@@ -76,7 +77,7 @@ public class Spells : MonoBehaviour {
 
 			//We are drawing a spell
 			isDrawing = true;
-			Debug.Log ("Drawing");
+			//Debug.Log ("Drawing");
 
 		}
 		
@@ -106,11 +107,11 @@ public class Spells : MonoBehaviour {
         string gestureString = gestureResult.GestureClass;
         if ( gestureResult.Score > 0.6f )
         {
-            if ( string.Equals(gestureString, "five point star") && enable5Start )
+            if ( string.Equals(gestureString, "five point star") && enableStar )
             {
 		        fire(projectiles[0]);
             }
-            else if ( string.Equals(gestureString, "P") && enableP)
+            else if ( string.Equals(gestureString, "P") && enableP )
             {
                 fire(projectiles[1]);
             } 
