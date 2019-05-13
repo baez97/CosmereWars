@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PSymbol : MonoBehaviour
+public class FiveStar : MonoBehaviour
 {
     public GameObject tracked_obj;
 
