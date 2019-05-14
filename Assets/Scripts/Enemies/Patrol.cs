@@ -7,6 +7,7 @@
     public class Patrol : MonoBehaviour {
 
         public GameObject[] points;
+        public int deadTrolls;
         private int destPoint = 0;
         private NavMeshAgent agent;
         bool activated = false;
@@ -49,7 +50,7 @@
                 Debug.Log("SD1");
             }
 
-            if (TrollController.deathEnemies >= 0 && activated == false) {
+            if (TrollController.deathEnemies >= deadTrolls && activated == false) {
                 
                 body.GetComponent<SkinnedMeshRenderer>().enabled=true;
                 weapon.GetComponent<MeshRenderer>().enabled=true;
@@ -73,6 +74,7 @@
 
             if(obj.gameObject.name == "Blade Collider") {
                 endgame.SetActive(true);
+                Destroy(gameObject);
             }
         
         }

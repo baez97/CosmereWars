@@ -16,6 +16,8 @@ public class StoryController : MonoBehaviour
 
     void Start()
     {
+
+
         int isScadrialActive = PlayerPrefs.GetInt(StoryController.ScadrialActive);
         int isElantrisActive = PlayerPrefs.GetInt(StoryController.ElantrisActive);
         int isEndgameActive = PlayerPrefs.GetInt(StoryController.EndgameActive);

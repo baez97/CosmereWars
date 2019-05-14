@@ -51,4 +51,8 @@ public class RosharStoryController : MonoBehaviour
         PlayerPrefs.SetInt(StoryController.ElantrisActive, 1);
 
     }
+
+    void enableMovement(){
+        SimpleVehicle.enable = true;
+    }
 }

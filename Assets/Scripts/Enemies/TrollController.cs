@@ -10,7 +10,7 @@ public class TrollController : MonoBehaviour
 
     bool faraway = false;
     int layer = 1;
-    bool isDeath = false;
+    bool isDead = false;
 
     System.Random gen;
     
@@ -29,7 +29,7 @@ public class TrollController : MonoBehaviour
 	
 	void Update ()
 	{
-        if (!isDeath) {
+        if (!isDead) {
 	        _nav.SetDestination(_player.position);
 
             if (_nav.remainingDistance < 30.0f && faraway == false) {
@@ -48,24 +48,25 @@ public class TrollController : MonoBehaviour
     void OnTriggerEnter(Collider obj) {
 
         Debug.Log("Enemy collided: " + obj.gameObject.name);
+        if(!isDead) {
+            if(obj.gameObject.name == "Blade Collider" || obj.gameObject.tag == "FivePointStar" || obj.gameObject.tag == "P") {
 
-        if(obj.gameObject.name == "Blade Collider") {
+                //Deletes the troll body collider(Prevents from detecting the collision more than once)
+                gameObject.transform.Find("troll_body_low").GetComponent<BoxCollider>().enabled=false;
+                Debug.Log("Entro");
 
-            //Deletes the troll body collider(Prevents from detecting the collision more than once)
-            gameObject.transform.Find("troll_body_low").GetComponent<BoxCollider>().enabled=false;
-            Debug.Log("Entro");
+                deathEnemies++;
 
-            deathEnemies++;
-
-            _nav.isStopped = true;
-            isDeath = true;
+                _nav.isStopped = true;
+                isDead = true;
 
 
-            anim.SetLayerWeight(layer,0.0f);
-            anim.SetTrigger("death");
-           
-            //Wait time before delete gameObject
-            StartCoroutine(Example());
+                anim.SetLayerWeight(layer,0.0f);
+                anim.SetTrigger("death");
+            
+                //Wait time before delete gameObject
+                StartCoroutine(Example());
+            }
         }
        
     }

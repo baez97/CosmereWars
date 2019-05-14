@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3955,7 +3955,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1238999459}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.064, y: 0.02, z: -9.595}
+  m_LocalPosition: {x: 0.064, y: 0.5, z: -9.595}
   m_LocalScale: {x: 2.3236206, y: 1, z: 3.398029}
   m_Children: []
   m_Father: {fileID: 1263056780}
@@ -5622,7 +5622,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.013
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5938,7 +5938,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1994744471
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8570,7 +8570,7 @@ PrefabInstance:
     - target: {fileID: 8285766864917007073, guid: 2d54efd08b38f9f498a6dcf38930deac,
         type: 3}
       propertyPath: m_Name
-      value: Elantris
+      value: ElantrisTutorial
       objectReference: {fileID: 0}
     - target: {fileID: 8285766864917007072, guid: 2d54efd08b38f9f498a6dcf38930deac,
         type: 3}

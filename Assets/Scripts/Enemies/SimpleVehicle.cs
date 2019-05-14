@@ -19,6 +19,7 @@ public class SimpleVehicle : MonoBehaviour {
     public GameObject player;
 
     public SteamVR_Action_Vector2 touchpadAction;
+    public static bool enable = false;
 
     float x,y;
 
@@ -31,6 +32,7 @@ public class SimpleVehicle : MonoBehaviour {
 	
 	void Update ()
     {
+        if(enable){
          if (touchpadAction.GetActive(SteamVR_Input_Sources.LeftHand)) {
             x = touchpadAction.GetAxis(SteamVR_Input_Sources.LeftHand)[0];
             y = touchpadAction.GetAxis(SteamVR_Input_Sources.LeftHand)[1];
@@ -59,5 +61,7 @@ public class SimpleVehicle : MonoBehaviour {
         joyStickRotation.x = currentMoveSpeed;
         joyStickRotation.y = -currentTurnSpeed * 10;
         joyStickRotation.z = -currentTurnSpeed * 10;
+        }
+
     }
 }
