@@ -31,7 +31,6 @@ public class Spells : MonoBehaviour {
 	private Camera cam;
 
 	public static bool enableP = false;
-	public GameObject greenSound;
 	public static bool enableStar = false;
 	
 	void Start () {
