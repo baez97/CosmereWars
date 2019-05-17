@@ -3092,7 +3092,7 @@ GameObject:
   - component: {fileID: 2538135740383053458}
   - component: {fileID: 9000825042191247698}
   m_Layer: 0
-  m_Name: troll
+  m_Name: trollRoshar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3107,7 +3107,7 @@ Transform:
   m_GameObject: {fileID: 6818309549009635388}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0.35, y: 0.2, z: 0.73}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 6812098464999927634}
   - {fileID: 6811874236554464080}
