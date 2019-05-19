@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR;
 
 public class TrollController : MonoBehaviour
 {
     Animator anim;
     private UnityEngine.AI.NavMeshAgent _nav;
     private Transform _player;
+    public SteamVR_Action_Vibration hapticAction;
 
     bool faraway = false;
     int layer = 1;
@@ -63,6 +65,9 @@ public class TrollController : MonoBehaviour
 
                 anim.SetLayerWeight(layer,0.0f);
                 anim.SetTrigger("death");
+
+                //Enables vibration
+                hapticAction.Execute(0,1,150,75,SteamVR_Input_Sources.Any);
             
                 //Wait time before delete gameObject
                 StartCoroutine(Example());

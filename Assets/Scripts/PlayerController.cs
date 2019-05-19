@@ -11,13 +11,12 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Player Controller running");
+        //Debug.Log("Player Controller running");
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Player Controller running");
     }
 
     void OnCollisionEnter (Collision col)

@@ -14,8 +14,10 @@ namespace Valve.VR.InteractionSystem
 	[RequireComponent( typeof( Interactable ) )]
 	[RequireComponent( typeof( Rigidbody ) )]
     [RequireComponent( typeof(VelocityEstimator))]
-	public class ThrowableModified : MonoBehaviour
+	public class CoinThrowable : MonoBehaviour
 	{
+
+        public GameObject coinObject;
 		[EnumFlags]
 		[Tooltip( "The flags used to attach this object to the hand." )]
 		public Hand.AttachmentFlags attachmentFlags = Hand.AttachmentFlags.ParentToHand | Hand.AttachmentFlags.DetachFromOtherHand | Hand.AttachmentFlags.TurnOnKinematic;
@@ -39,14 +41,12 @@ namespace Valve.VR.InteractionSystem
         
 
 		protected VelocityEstimator velocityEstimator;
-        protected bool attached = true;
+        protected bool attached = false;
         protected float attachTime;
         protected Vector3 attachPosition;
         protected Quaternion attachRotation;
         protected Transform attachEaseInTransform;
 
-		public UnityEvent onPickUp;
-        public UnityEvent onDetachFromHand;
         public UnityEvent<Hand> onHeldUpdate;
 
         
@@ -56,7 +56,6 @@ namespace Valve.VR.InteractionSystem
 
         [HideInInspector]
         public Interactable interactable;
-
 
         //-------------------------------------------------
         protected virtual void Awake()
@@ -138,7 +137,9 @@ namespace Valve.VR.InteractionSystem
 
             attached = true;
 
-			onPickUp.Invoke();
+            //Modification
+			//onPickUp.Invoke();
+            coinObject.GetComponent<CoinController>().OnPickUp(gameObject);
 
 			hand.HoverLock( null );
             
@@ -157,8 +158,10 @@ namespace Valve.VR.InteractionSystem
         protected virtual void OnDetachedFromHand(Hand hand)
         {
             attached = false;
-
-            onDetachFromHand.Invoke();
+            
+            //Modification
+            //onDetachFromHand.Invoke();
+            coinObject.GetComponent<CoinController>().OnDetach(gameObject);
 
             hand.HoverUnlock(null);
             
@@ -252,5 +255,11 @@ namespace Valve.VR.InteractionSystem
 		}
 	}
 
-    
+    public enum ReleaseStyle
+    {
+        NoChange,
+        GetFromHand,
+        ShortEstimation,
+        AdvancedEstimation,
+    }
 }
