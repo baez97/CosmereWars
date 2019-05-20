@@ -29,8 +29,8 @@ public class CoinManager : MonoBehaviour
 
     public void EnableGravity(){
         Debug.Log("Holi");
-      rb.isKinematic = false;
-      rb.useGravity = true;
+        rb.isKinematic = false;
+        rb.useGravity = true;
     }
 
 

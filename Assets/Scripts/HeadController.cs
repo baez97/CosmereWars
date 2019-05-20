@@ -26,7 +26,11 @@ public class HeadController : MonoBehaviour
         if(col.gameObject.CompareTag("WorldPortal"))
         {
 			Destroy (room);
+            if (col.gameObject.name == "Roshar"){
+                PlayerPrefs.SetInt(StoryController.RosharDialog, 0);
+            }
             SceneManager.LoadScene(col.gameObject.name);
+
 			Destroy(col.gameObject);
         }
     }

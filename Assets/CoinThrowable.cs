@@ -49,6 +49,11 @@ namespace Valve.VR.InteractionSystem
 
         public UnityEvent<Hand> onHeldUpdate;
 
+        private bool thrown = false;
+        private bool flying = false;
+        public int speed = 10;
+        private SteamVR_Input_Sources handType = SteamVR_Input_Sources.RightHand;
+
         
         protected RigidbodyInterpolation hadInterpolation = RigidbodyInterpolation.None;
 
@@ -76,6 +81,13 @@ namespace Valve.VR.InteractionSystem
             }
 
 		}
+
+        void Update () {
+            if (!thrown &&  SteamVR_Actions._default.GrabPinch.GetStateDown(handType) && flying){
+                rigidbody.velocity = new Vector3(rigidbody.velocity.x * speed, 0, rigidbody.velocity.z * speed);
+                thrown = true;
+            }
+        }
 
 
         //-------------------------------------------------
@@ -139,6 +151,7 @@ namespace Valve.VR.InteractionSystem
 
             //Modification
 			//onPickUp.Invoke();
+            Debug.Log("Attached");
             coinObject.GetComponent<CoinController>().OnPickUp(gameObject);
 
 			hand.HoverLock( null );
@@ -158,6 +171,7 @@ namespace Valve.VR.InteractionSystem
         protected virtual void OnDetachedFromHand(Hand hand)
         {
             attached = false;
+            flying = true;
             
             //Modification
             //onDetachFromHand.Invoke();

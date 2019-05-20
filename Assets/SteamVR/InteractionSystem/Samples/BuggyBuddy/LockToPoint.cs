@@ -47,6 +47,7 @@ namespace Valve.VR.InteractionSystem.Sample
                                     // transform.rotation = snapTo.rotation;
                                     door.GetComponent<CircularDrive>().enabled = true;
                                     tpPlane.SetActive(true);
+                                    this.GetComponent<Interactable>().enabled = false;
                                 }
                                 else
                                 {

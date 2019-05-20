@@ -19,6 +19,8 @@ public class StoryController : MonoBehaviour
     public static string ScadrialActive = "ScadrialActive";
     public static string ElantrisActive = "ElantrisActive";
     public static string EndgameActive = "EndgameActive";
+    public static string RosharDialog = "RosharDialog";
+
 
     void Start()
     {

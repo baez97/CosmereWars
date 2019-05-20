@@ -12,6 +12,20 @@ public class RosharStoryController : MonoBehaviour
     public GameObject enemyManager;
     public GameObject endgameFlowChart;
     public GameObject Room;
+    public GameObject dialog;
+
+    void Start(){
+        int dial = PlayerPrefs.GetInt(StoryController.RosharDialog);
+        if(dial == 0){
+            PlayerPrefs.SetInt(StoryController.RosharDialog, 1);
+            dialog.SetActive(true);
+        }else{
+            disableSyl();
+            enableSword();
+            enableEnemyManager();
+            enableMovement();
+        }
+    }
 
     void disableSyl(){
         syl.SetActive(false);

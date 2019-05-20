@@ -56,7 +56,7 @@ public class TrollController : MonoBehaviour
                 //Deletes the troll body collider(Prevents from detecting the collision more than once)
                 gameObject.transform.Find("troll_body_low").GetComponent<BoxCollider>().enabled=false;
                 Debug.Log("Entro");
-
+                this.gameObject.tag = "DeadEnemy";
                 deathEnemies++;
 
                 _nav.isStopped = true;
