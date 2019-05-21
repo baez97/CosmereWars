@@ -5,8 +5,9 @@ using UnityEngine;
 public class DragonController : MonoBehaviour
 {
     // Start is called before the first frame update
-
-    public int lives = 3;
+    public Transform[] targets;
+    public int lives;
+    public int speed;
     void Start()
     {
     }
@@ -14,6 +15,8 @@ public class DragonController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float step =  speed * Time.deltaTime; // calculate distance to move
+        transform.position = Vector3.MoveTowards(transform.position, target.position, step);
         
     }
 
