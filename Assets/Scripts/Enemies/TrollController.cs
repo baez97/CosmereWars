@@ -51,12 +51,15 @@ public class TrollController : MonoBehaviour
 
         Debug.Log("Enemy collided: " + obj.gameObject.name);
         if(!isDead) {
-            if(obj.gameObject.name == "Blade Collider" || obj.gameObject.tag == "FivePointStar" || obj.gameObject.tag == "P") {
+            if(obj.gameObject.name == "Blade Collider" || obj.gameObject.tag == "FivePointStar" || obj.gameObject.tag == "P" || obj.gameObject.tag == "Coin") {
 
                 //Deletes the troll body collider(Prevents from detecting the collision more than once)
                 gameObject.transform.Find("troll_body_low").GetComponent<BoxCollider>().enabled=false;
                 Debug.Log("Entro");
+
+                gameObject.transform.Find("mace_low").gameObject.tag = "DeadEnemy";
                 this.gameObject.tag = "DeadEnemy";
+                
                 deathEnemies++;
 
                 _nav.isStopped = true;
