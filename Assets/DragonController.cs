@@ -6,8 +6,10 @@ public class DragonController : MonoBehaviour
 {
     // Start is called before the first frame update
     public Transform[] targets;
+    private int currentTarget = 0;
     public int lives;
     public int speed;
+    public GameObject endgame;
     void Start()
     {
     }
@@ -16,7 +18,15 @@ public class DragonController : MonoBehaviour
     void Update()
     {
         float step =  speed * Time.deltaTime; // calculate distance to move
-        transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+        transform.position = Vector3.MoveTowards(transform.position, targets[currentTarget].position, step);
+        Vector3 targetDir = targets[currentTarget].position - transform.position;
+        Vector3 newDir = Vector3.RotateTowards(transform.forward, targetDir, step, 0.0f);
+        transform.rotation = Quaternion.LookRotation(newDir);
+
+        if (Vector3.Distance(transform.position,  targets[currentTarget].position) < 2.0f){
+            currentTarget = (currentTarget + 1) % targets.Length;
+            Debug.Log("Current target: " + currentTarget);
+        }
         
     }
 
@@ -30,6 +40,7 @@ public class DragonController : MonoBehaviour
             
             if(lives<=0) {
                 Debug.Log("End Game");
+                endgame.SetActive(true);
             }
             
         }
