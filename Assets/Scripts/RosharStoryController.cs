@@ -13,6 +13,8 @@ public class RosharStoryController : MonoBehaviour
     public GameObject endgameFlowChart;
     public GameObject Room;
     public GameObject dialog;
+    public GameObject endgame;
+    public static int deadTrolls = 10;
 
     void Start(){
         int dial = PlayerPrefs.GetInt(StoryController.RosharDialog);
@@ -20,15 +22,21 @@ public class RosharStoryController : MonoBehaviour
             PlayerPrefs.SetInt(StoryController.RosharDialog, 1);
             dialog.SetActive(true);
         }else{
+            TrollController.deathEnemies = 0;
             disableSyl();
             enableSword();
             enableEnemyManager();
             enableMovement();
+            disableEndgame();
         }
     }
 
     void disableSyl(){
         syl.SetActive(false);
+    }
+
+    void disableEndgame(){
+        endgame.SetActive(false);
     }
 
     void enableSylFire(){

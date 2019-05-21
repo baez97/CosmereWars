@@ -12,6 +12,8 @@ TagManager:
   - P
   - Enemy
   - Coin
+  - DeadEnemy
+  - Weapon
   layers:
   - Default
   - TransparentFX

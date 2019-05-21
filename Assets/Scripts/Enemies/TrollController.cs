@@ -57,7 +57,7 @@ public class TrollController : MonoBehaviour
                 gameObject.transform.Find("troll_body_low").GetComponent<BoxCollider>().enabled=false;
                 Debug.Log("Entro");
 
-                gameObject.transform.Find("mace_low").gameObject.tag = "DeadEnemy";
+                //gameObject.transform.Find("mace_low").gameObject.tag = "DeadEnemy";
                 this.gameObject.tag = "DeadEnemy";
                 
                 deathEnemies++;
@@ -70,7 +70,10 @@ public class TrollController : MonoBehaviour
                 anim.SetTrigger("death");
 
                 //Enables vibration
-                hapticAction.Execute(0,1,150,75,SteamVR_Input_Sources.Any);
+                hapticAction.Execute(0,0.5f,100,0.5f,SteamVR_Input_Sources.RightHand);
+
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.Play();
             
                 //Wait time before delete gameObject
                 StartCoroutine(Example());
@@ -81,7 +84,7 @@ public class TrollController : MonoBehaviour
 
     IEnumerator Example()
     {
-        yield return new WaitForSeconds(7);
+        yield return new WaitForSeconds(3);
         Destroy(gameObject);
       
     }

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class HeadController : MonoBehaviour
 {
 	public GameObject room;
+        public int lives = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +21,6 @@ public class HeadController : MonoBehaviour
 
     void OnCollisionEnter (Collision col)
     {
-        Debug.Log("Collision" + col.gameObject.name);
-
 
         if(col.gameObject.CompareTag("WorldPortal"))
         {

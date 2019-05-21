@@ -13,6 +13,8 @@ public class RoundsController : MonoBehaviour
     int[] enemies_per_round = {4,2,3};
 
     public GameObject room;
+    public GameObject round1;
+    public GameObject camera1;
 
     void Start()
     {
@@ -50,12 +52,12 @@ public class RoundsController : MonoBehaviour
     void OnBecameVisible()
     {
         //Desactivamos el detector de la ronda actual
-        GameObject camera = GameObject.Find("CameraRound" + round);
-        camera.SetActive(false);
+        // GameObject camera = GameObject.Find("CameraRound" + round);
+        camera1.SetActive(false);
 
         //Activamos el conjunto de enemigos de la ronda actual
-        GameObject enemyRound = GameObject.Find("Round" + round);
-        enemyRound.SetActive(true);
+        // GameObject enemyRound = GameObject.Find("Round" + round);
+        round1.SetActive(true);
 
         Debug.Log("Visible");
     }

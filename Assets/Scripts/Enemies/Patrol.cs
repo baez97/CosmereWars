@@ -7,7 +7,6 @@
     public class Patrol : MonoBehaviour {
 
         public GameObject[] points;
-        public int deadTrolls;
         private int destPoint = 0;
         private NavMeshAgent agent;
         bool activated = false;
@@ -50,7 +49,7 @@
                 Debug.Log("SD1");
             }
 
-            if (TrollController.deathEnemies >= deadTrolls && activated == false) {
+            if (TrollController.deathEnemies >= RosharStoryController.deadTrolls && activated == false) {
                 
                 body.GetComponent<SkinnedMeshRenderer>().enabled=true;
                 weapon.GetComponent<MeshRenderer>().enabled=true;
@@ -73,6 +72,8 @@
             Debug.Log("Enemy collided: " + obj.gameObject.name);
 
             if(obj.gameObject.name == "Blade Collider") {
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.Play();
                 endgame.SetActive(true);
                 Destroy(gameObject);
             }

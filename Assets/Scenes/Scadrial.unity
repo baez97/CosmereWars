@@ -5451,7 +5451,7 @@ MeshCollider:
   m_GameObject: {fileID: 305073393}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
@@ -55903,6 +55903,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lives: 1
   room: {fileID: 586245407}
+  hapticAction:
+    actionPath: 
+    needsReinit: 0
 --- !u!114 &1077101794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55917,6 +55920,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lives: 1
   room: {fileID: 586245407}
+  hapticAction:
+    actionPath: 
+    needsReinit: 0
 --- !u!54 &1077101795
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -67575,6 +67581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   room: {fileID: 0}
+  lives: 1
 --- !u!4 &1225978695 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9,
@@ -72346,7 +72353,6 @@ GameObject:
   - component: {fileID: 1232178583}
   - component: {fileID: 1232178582}
   - component: {fileID: 1232178585}
-  - component: {fileID: 1232178586}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Enemy
@@ -72436,18 +72442,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 08cefb1408b398246b2f9d6596165a33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1232178586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232178580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e7627e65e5a809458af0249d21bed19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1233659868
@@ -74971,6 +74965,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   room: {fileID: 586245407}
+  round1: {fileID: 1978802336}
+  camera1: {fileID: 524967333}
 --- !u!23 &1359001688
 MeshRenderer:
   m_ObjectHideFlags: 0
