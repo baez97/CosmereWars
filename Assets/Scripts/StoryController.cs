@@ -15,20 +15,25 @@ public class StoryController : MonoBehaviour
     public GameObject sylDialog;
     public GameObject kelsierDialog;
     public GameObject raodenDialog;
+    public GameObject oldText;
+    public GameObject endText;
+    public GameObject gameFinished;
     
     public static string ScadrialActive = "ScadrialActive";
     public static string ElantrisActive = "ElantrisActive";
     public static string EndgameActive = "EndgameActive";
+    public static string GameFinished = "GameFinished";
     public static string RosharDialog = "RosharDialog";
 
 
     void Start()
     {
 
-        PlayerPrefs.SetInt(StoryController.EndgameActive,1);
         int isScadrialActive = PlayerPrefs.GetInt(StoryController.ScadrialActive);
         int isElantrisActive = PlayerPrefs.GetInt(StoryController.ElantrisActive);
         int isEndgameActive = PlayerPrefs.GetInt(StoryController.EndgameActive);
+        int isGameFinished = PlayerPrefs.GetInt(StoryController.GameFinished);
+
         if (isScadrialActive == 1){
             scadrial.SetActive(true);
             raoden.SetActive(true);
@@ -45,6 +50,12 @@ public class StoryController : MonoBehaviour
             roshar.SetActive(false);
             scadrial.SetActive(false);
 
+        }
+
+        if(isGameFinished == 1){
+            gameFinished.SetActive(true);
+            oldText.SetActive(false);
+            endText.SetActive(true);
         }
     }
 
