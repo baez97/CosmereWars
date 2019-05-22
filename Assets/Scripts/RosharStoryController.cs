@@ -17,6 +17,7 @@ public class RosharStoryController : MonoBehaviour
     public static int deadTrolls = 10;
 
     void Start(){
+        PlayerPrefs.GetInt(StoryController.RosharDialog, 0);
         int dial = PlayerPrefs.GetInt(StoryController.RosharDialog);
         if(dial == 0){
             PlayerPrefs.SetInt(StoryController.RosharDialog, 1);

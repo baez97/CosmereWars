@@ -18,6 +18,7 @@ namespace Valve.VR.InteractionSystem
 	{
 
         public GameObject coinObject;
+        public GameObject AudioObject;
 		[EnumFlags]
 		[Tooltip( "The flags used to attach this object to the hand." )]
 		public Hand.AttachmentFlags attachmentFlags = Hand.AttachmentFlags.ParentToHand | Hand.AttachmentFlags.DetachFromOtherHand | Hand.AttachmentFlags.TurnOnKinematic;
@@ -84,6 +85,8 @@ namespace Valve.VR.InteractionSystem
 
         void Update () {
             if (!thrown &&  SteamVR_Actions._default.GrabPinch.GetStateDown(handType) && flying){
+                AudioSource audioSrc = AudioObject.GetComponent<AudioSource>();
+                audioSrc.Play();
                 rigidbody.velocity = new Vector3(rigidbody.velocity.x * speed, 0, rigidbody.velocity.z * speed);
                 thrown = true;
             }

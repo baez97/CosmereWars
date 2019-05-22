@@ -15,6 +15,7 @@ TagManager:
   - DeadEnemy
   - Weapon
   - Detector
+  - Vampire
   layers:
   - Default
   - TransparentFX

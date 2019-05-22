@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR;
 
 public class DragonController : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class DragonController : MonoBehaviour
     public int lives;
     public int speed;
     public GameObject endgame;
+    public SteamVR_Action_Vibration hapticAction;
     void Start()
     {
     }
@@ -36,10 +38,19 @@ public class DragonController : MonoBehaviour
         
         if(obj.gameObject.tag == "FivePointStar" || obj.gameObject.tag == "P") {
 
-            lives--; 
+            lives--;
+
+            
+            hapticAction.Execute(0,1,150,1,SteamVR_Input_Sources.Any);
             
             if(lives<=0) {
                 Debug.Log("End Game");
+                GameObject[] gameObjects =  GameObject.FindGameObjectsWithTag ("Enemy");
+        
+                for(int i = 0 ; i < gameObjects.Length ; i ++)
+                    Destroy(gameObjects[i]);
+                
+                Destroy(gameObject);
                 endgame.SetActive(true);
             }
             

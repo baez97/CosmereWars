@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter (Collision col)
     {
-        Debug.Log("Collision");
+        Debug.Log("Collision" + col.gameObject.name);
         if(col.gameObject.tag == "Weapon" && !hit)
         {
             hit = true;
