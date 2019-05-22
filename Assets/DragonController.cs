@@ -15,8 +15,8 @@ public class DragonController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float step =  speed * Time.deltaTime; // calculate distance to move
-        transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+        //float step =  speed * Time.deltaTime; // calculate distance to move
+        //transform.position = Vector3.MoveTowards(transform.position, target.position, step);
         
     }
 

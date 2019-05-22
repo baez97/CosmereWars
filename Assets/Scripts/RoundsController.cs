@@ -7,41 +7,45 @@ public class RoundsController : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    int round;
+    int round = 1;
     public static int deadEnemies;
 
     int[] enemies_per_round = {4,2,3};
 
     public GameObject room;
-    public GameObject round1;
-    public GameObject camera1;
+
+    public GameObject player;
+
+    public float distaceThreshold;
+    public Transform[] points;
+    public GameObject[] rounds;
+    public GameObject[] areas;
 
     void Start()
     {
-        round = 1;
         deadEnemies = 0;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        if(deadEnemies >= enemies_per_round[round]) {
+        checkDistance();
+
+        if(deadEnemies >= enemies_per_round[round-1]) {
             Debug.Log("Nueva ronda");
             deadEnemies=0;
             round++;
 
             if(round<4) {
-                GameObject camera = GameObject.Find("CameraRound" + round);
-                camera.SetActive(true);
 
-                GameObject floor = GameObject.Find("PlaneRound" + round);
+                GameObject floor = areas[round-1];
                 floor.SetActive(true);
             }
             else
             {
                 Destroy(room);
-                SceneManager.LoadScene("CongnitiveRealm");
+                SceneManager.LoadScene("CognitiveRealm");
             }
             
 
@@ -49,16 +53,17 @@ public class RoundsController : MonoBehaviour
 
     }
 
-    void OnBecameVisible()
-    {
-        //Desactivamos el detector de la ronda actual
-        // GameObject camera = GameObject.Find("CameraRound" + round);
-        camera1.SetActive(false);
 
-        //Activamos el conjunto de enemigos de la ronda actual
-        // GameObject enemyRound = GameObject.Find("Round" + round);
-        round1.SetActive(true);
+    public void checkDistance() {
 
-        Debug.Log("Visible");
+        float dist = Vector3.Distance(transform.position, points[round-1].position);
+        //float dist = 12;
+        Debug.Log("Distance: " + dist);
+        
+        if(dist<distaceThreshold) {
+            GameObject enemyRound = rounds[round-1];
+            enemyRound.SetActive(true);
+            Debug.Log("Visible");
+        }
     }
 }
