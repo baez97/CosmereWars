@@ -72,8 +72,11 @@ public class TrollController : MonoBehaviour
                 //Enables vibration
                 hapticAction.Execute(0,0.5f,100,0.5f,SteamVR_Input_Sources.RightHand);
 
-                AudioSource audio = GetComponent<AudioSource>();
-                audio.Play();
+                AudioSource[] audios = GetComponents<AudioSource>();
+                foreach( AudioSource audio in audios ) {
+                    
+                    audio.Play();
+                }
             
                 //Wait time before delete gameObject
                 StartCoroutine(Example());

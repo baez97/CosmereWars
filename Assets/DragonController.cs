@@ -40,13 +40,15 @@ public class DragonController : MonoBehaviour
 
             lives--;
 
-            
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.Play();
             hapticAction.Execute(0,1,150,1,SteamVR_Input_Sources.Any);
             
             if(lives<=0) {
                 Debug.Log("End Game");
                 GameObject[] gameObjects =  GameObject.FindGameObjectsWithTag ("Enemy");
         
+                // No sería más facil "Destroy(this)"?
                 for(int i = 0 ; i < gameObjects.Length ; i ++)
                     Destroy(gameObjects[i]);
                 

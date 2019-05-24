@@ -72,8 +72,10 @@
             Debug.Log("Enemy collided: " + obj.gameObject.name);
 
             if(obj.gameObject.name == "Blade Collider") {
-                AudioSource audio = GetComponent<AudioSource>();
-                audio.Play();
+                AudioSource[] audios = GetComponents<AudioSource>();
+                foreach( AudioSource audio in audios ) {
+                    audio.Play();
+                }
                 endgame.SetActive(true);
                 Destroy(gameObject);
             }
