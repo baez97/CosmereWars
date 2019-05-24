@@ -18,6 +18,11 @@ public class StoryController : MonoBehaviour
     public GameObject oldText;
     public GameObject endText;
     public GameObject gameFinished;
+    public GameObject audioSyl;
+    public GameObject audioRaoden;
+    public GameObject audioKelsier;
+
+
     
     public static string ScadrialActive = "ScadrialActive";
     public static string ElantrisActive = "ElantrisActive";
@@ -73,6 +78,36 @@ public class StoryController : MonoBehaviour
 
     void disableKelsierDialog(){
         kelsierDialog.SetActive(false);
+    }
+
+    public void startAudioSyl(){
+        AudioSource audio = audioSyl.GetComponent<AudioSource>();
+        audio.Play();
+    }
+
+    public void stopAudioSyl(){
+        AudioSource audio = audioSyl.GetComponent<AudioSource>();
+        audio.Stop();
+    }
+
+    public void startAudioKelsier(){
+        AudioSource audio = audioKelsier.GetComponent<AudioSource>();
+        audio.Play();
+    }
+
+    public void stopAudioKelsier(){
+        AudioSource audio = audioKelsier.GetComponent<AudioSource>();
+        audio.Stop();
+    }
+
+    public void startAudioRaoden(){
+        AudioSource audio = audioRaoden.GetComponent<AudioSource>();
+        audio.Play();
+    }
+
+    public void stopAudioRaoden(){
+        AudioSource audio = audioRaoden.GetComponent<AudioSource>();
+        audio.Stop();
     }
 
 }

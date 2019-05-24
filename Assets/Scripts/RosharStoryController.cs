@@ -14,6 +14,8 @@ public class RosharStoryController : MonoBehaviour
     public GameObject Room;
     public GameObject dialog;
     public GameObject endgame;
+        public GameObject audioObj;
+
     public static int deadTrolls = 10;
 
     void Start(){
@@ -77,5 +79,15 @@ public class RosharStoryController : MonoBehaviour
 
     void enableMovement(){
         SimpleVehicle.enable = true;
+    }
+
+        public void startAudio(){
+        AudioSource audio = audioObj.GetComponent<AudioSource>();
+        audio.Play();
+    }
+
+    public void stopAudio(){
+        AudioSource audio = audioObj.GetComponent<AudioSource>();
+        audio.Stop();
     }
 }

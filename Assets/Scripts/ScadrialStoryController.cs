@@ -9,6 +9,8 @@ public class ScadrialStoryController : MonoBehaviour
 {
     public GameObject Room;
     public GameObject key;
+        public GameObject audioObj;
+
     void travelToCR(){
         Destroy(Room);
         SceneManager.LoadScene("CognitiveRealm");
@@ -17,6 +19,16 @@ public class ScadrialStoryController : MonoBehaviour
 
     void enableKey(){
         key.GetComponent<MeshCollider>().enabled = true;
+    }
+
+        public void startAudio(){
+        AudioSource audio = audioObj.GetComponent<AudioSource>();
+        audio.Play();
+    }
+
+    public void stopAudio(){
+        AudioSource audio = audioObj.GetComponent<AudioSource>();
+        audio.Stop();
     }
 }
 }
