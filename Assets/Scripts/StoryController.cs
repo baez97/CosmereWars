@@ -33,10 +33,6 @@ public class StoryController : MonoBehaviour
 
     void Start()
     {
-        // PlayerPrefs.SetInt(StoryController.ScadrialActive, 0);
-        // PlayerPrefs.SetInt(StoryController.ElantrisActive, 0);
-        // PlayerPrefs.SetInt(StoryController.EndgameActive, 0);
-        // PlayerPrefs.SetInt(StoryController.GameFinished, 0);
 
         int isScadrialActive = PlayerPrefs.GetInt(StoryController.ScadrialActive);
         int isElantrisActive = PlayerPrefs.GetInt(StoryController.ElantrisActive);

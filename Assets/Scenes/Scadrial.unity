@@ -3482,7 +3482,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202272188}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.6, z: 0}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2095856799}
@@ -3513,6 +3513,7 @@ GameObject:
   - component: {fileID: 204439655}
   - component: {fileID: 204439667}
   - component: {fileID: 204439656}
+  - component: {fileID: 204439668}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3539,7 +3540,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &204439656
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3664,7 +3665,7 @@ MonoBehaviour:
   itemId: 44
   indentLevel: 0
   storyText: The applications are limitless, but given that we are in a hurry, I would
-    suggest you to push on coins and use them as projectiles.
+    suggest you to Push on coins and use them as projectiles.
   description: 
   character: {fileID: 1585439880}
   portrait: {fileID: 0}
@@ -3804,7 +3805,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 109
     y: 44
-    width: 120.85714
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3819,6 +3820,7 @@ MonoBehaviour:
   - {fileID: 204439663}
   - {fileID: 204439662}
   - {fileID: 204439661}
+  - {fileID: 204439668}
   - {fileID: 204439660}
   - {fileID: 204439659}
   - {fileID: 204439658}
@@ -3826,7 +3828,7 @@ MonoBehaviour:
   - {fileID: 204439667}
 --- !u!114 &204439667
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3841,6 +3843,34 @@ MonoBehaviour:
   targetObject: {fileID: 95219353}
   methodName: enableKey
   delay: 0
+--- !u!114 &204439668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204439654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 54
+  indentLevel: 0
+  storyText: Launch them with your right hand, then press the right trigger to Push
+    them.
+  description: 
+  character: {fileID: 1585439880}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &204439694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3854,11 +3884,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 201, y: 63}
+  scrollPos: {x: 469.2347, y: -262.35275}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.85000014
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3868,7 +3898,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 204439666}
   selectedCommands:
-  - {fileID: 204439656}
+  - {fileID: 204439658}
   variables: []
   description: 
   stepPause: 0
@@ -23905,7 +23935,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571996638}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.7, z: 0}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1843052126}
@@ -49274,7 +49304,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 924147278}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.28, y: -5.608, z: 31.99}
+  m_LocalPosition: {x: 32.28, y: -5.83, z: 31.99}
   m_LocalScale: {x: 5, y: 1, z: 4}
   m_Children: []
   m_Father: {fileID: 571996639}
@@ -55170,7 +55200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 990003786}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.9407883, y: -7.1, z: 31.697414}
+  m_LocalPosition: {x: -4.9407883, y: -7.36, z: 31.697414}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 10116916}
@@ -55831,7 +55861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1335448036}
+  selectedFlowchart: {fileID: 204439694}
 --- !u!4 &1022207060
 Transform:
   m_ObjectHideFlags: 1
@@ -67647,15 +67677,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ad0f936da1b94df47a67bc558a9ccff0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.670246
+      value: 47.89
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ad0f936da1b94df47a67bc558a9ccff0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.820658
+      value: -5.8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ad0f936da1b94df47a67bc558a9ccff0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 23.55963
+      value: 41.4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ad0f936da1b94df47a67bc558a9ccff0, type: 3}
       propertyPath: m_LocalRotation.x
