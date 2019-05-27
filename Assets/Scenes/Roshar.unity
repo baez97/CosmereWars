@@ -3751,7 +3751,7 @@ AudioSource:
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
@@ -3788,7 +3788,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.703
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -3803,7 +3803,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.5555556
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -5032,7 +5032,7 @@ MonoBehaviour:
   scrollPos: {x: 201, y: 63}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 456
+  blockViewHeight: 294
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -5042,8 +5042,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 593961069}
-  selectedCommands:
-  - {fileID: 593961072}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -5612,9 +5611,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 109
+    x: 110
     y: 44
-    width: 120.85714
+    width: 125
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5623,7 +5622,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 593961059}
   commandList:
-  - {fileID: 593961072}
+  - {fileID: 593961073}
   - {fileID: 593961068}
   - {fileID: 593961067}
   - {fileID: 593961066}
@@ -5634,7 +5633,7 @@ MonoBehaviour:
   - {fileID: 593961061}
   - {fileID: 593961060}
   - {fileID: 593961070}
-  - {fileID: 593961073}
+  - {fileID: 593961072}
   - {fileID: 593961058}
 --- !u!114 &593961070
 MonoBehaviour:
@@ -7120,7 +7119,7 @@ MonoBehaviour:
   scrollPos: {x: -688.9155, y: 56.496067}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
+  blockViewHeight: 294
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -7130,8 +7129,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 716269911}
-  selectedCommands:
-  - {fileID: 716269914}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -7203,7 +7201,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &716269916
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7220,7 +7218,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &716269917
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7300,15 +7298,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 497310, guid: 9ae484dd877d0e941918a539eb0b1959, type: 3}
       propertyPath: m_LocalScale.x
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 497310, guid: 9ae484dd877d0e941918a539eb0b1959, type: 3}
       propertyPath: m_LocalScale.y
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 497310, guid: 9ae484dd877d0e941918a539eb0b1959, type: 3}
       propertyPath: m_LocalScale.z
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 434260, guid: 9ae484dd877d0e941918a539eb0b1959, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16296,7 +16294,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 529fccb3c212c73458ece4b2e202249c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -18734,11 +18732,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4564403568054330, guid: 1a5fabde4e1486a4bbe7f50db9dbbb9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 6.56
       objectReference: {fileID: 0}
     - target: {fileID: 4564403568054330, guid: 1a5fabde4e1486a4bbe7f50db9dbbb9e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.7
+      value: 3.82
       objectReference: {fileID: 0}
     - target: {fileID: 4564403568054330, guid: 1a5fabde4e1486a4bbe7f50db9dbbb9e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -18771,6 +18769,18 @@ PrefabInstance:
     - target: {fileID: 4564403568054330, guid: 1a5fabde4e1486a4bbe7f50db9dbbb9e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564403568054330, guid: 1a5fabde4e1486a4bbe7f50db9dbbb9e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564403568054330, guid: 1a5fabde4e1486a4bbe7f50db9dbbb9e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564403568054330, guid: 1a5fabde4e1486a4bbe7f50db9dbbb9e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 95618185085212864, guid: 1a5fabde4e1486a4bbe7f50db9dbbb9e,
         type: 3}

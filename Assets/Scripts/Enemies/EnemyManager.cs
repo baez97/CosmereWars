@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyManager : MonoBehaviour
 {
@@ -9,8 +10,11 @@ public class EnemyManager : MonoBehaviour
 
     public int max_enemies = 0;
 
+    public static int deadEnemies = 0;
     private int gen_enemies = 0;
     private bool finished = false;
+
+
     public GameObject endarea;
 
     void Start ()
@@ -22,7 +26,7 @@ public class EnemyManager : MonoBehaviour
 
     private void Update()
     {
-        if(gen_enemies>=max_enemies) {
+        if(deadEnemies>=max_enemies && SceneManager.GetActiveScene().name == "ElantrisFinalBattle") {
             if(!finished){
                 finished = true;
                 endarea.SetActive(true);

@@ -13,6 +13,10 @@ public class ElantrisTutorialStoryController : MonoBehaviour
         spells.SetActive(true);
     }
 
+    public void disableSpells(){
+        spells.SetActive(false);
+    }
+
     public void travelToEFB(){
         Destroy(room);
         SceneManager.LoadScene("ElantrisFinalBattle");

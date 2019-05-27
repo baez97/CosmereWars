@@ -77,6 +77,7 @@
                     audio.Play();
                 }
                 endgame.SetActive(true);
+                TrollController.endZone = true;
                 Destroy(gameObject);
             }
         

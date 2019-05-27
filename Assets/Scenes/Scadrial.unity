@@ -3692,8 +3692,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  storyText: Drink that vial, and you will be able to push any source of metal away
-    from your body.
+  storyText: In this world, you will be able to push any source of metal away from
+    your body.
   description: 
   character: {fileID: 1585439880}
   portrait: {fileID: 0}
@@ -3805,7 +3805,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 109
     y: 44
-    width: 120
+    width: 126
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3845,7 +3845,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &204439668
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3878,17 +3878,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204439654}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 469.2347, y: -262.35275}
+  scrollPos: {x: 1574.8744, y: 237.5516}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.85000014
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3898,7 +3898,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 204439666}
   selectedCommands:
-  - {fileID: 204439658}
+  - {fileID: 204439662}
   variables: []
   description: 
   stepPause: 0
@@ -5447,7 +5447,7 @@ MeshCollider:
   m_GameObject: {fileID: 305073393}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
@@ -24713,6 +24713,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Vampire
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     - target: {fileID: -4216859302048453862, guid: cab412336e53377418aaa7a8a65afdc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24783,11 +24788,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab412336e53377418aaa7a8a65afdc0, type: 3}
 --- !u!4 &600481879 stripped
@@ -25584,10 +25584,15 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Vampire
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     - target: {fileID: -4216859302048453862, guid: cab412336e53377418aaa7a8a65afdc0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.459471
+      value: -25.5
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: cab412336e53377418aaa7a8a65afdc0,
         type: 3}
@@ -25597,7 +25602,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: cab412336e53377418aaa7a8a65afdc0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 22.117
+      value: 17.278
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: cab412336e53377418aaa7a8a65afdc0,
         type: 3}
@@ -25654,11 +25659,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab412336e53377418aaa7a8a65afdc0, type: 3}
 --- !u!4 &683749055 stripped
@@ -26647,6 +26647,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Vampire
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     - target: {fileID: -4216859302048453862, guid: cab412336e53377418aaa7a8a65afdc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26717,11 +26722,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab412336e53377418aaa7a8a65afdc0, type: 3}
 --- !u!4 &746687722 stripped
@@ -32048,6 +32048,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Vampire
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     - target: {fileID: -4216859302048453862, guid: cab412336e53377418aaa7a8a65afdc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32118,11 +32123,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab412336e53377418aaa7a8a65afdc0, type: 3}
 --- !u!4 &773398669 stripped
@@ -37495,7 +37495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8736868969b61534cb443b6b8619d2bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialog: {fileID: 0}
+  dialog: {fileID: 1335448028}
 --- !u!114 &810268829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37750,7 +37750,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0.139}
-  m_SizeDelta: {x: 1637.4045, y: 1200}
+  m_SizeDelta: {x: 1280, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &821899582
 MonoBehaviour:
@@ -56276,6 +56276,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Vampire
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     - target: {fileID: -4216859302048453862, guid: cab412336e53377418aaa7a8a65afdc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -56346,11 +56351,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab412336e53377418aaa7a8a65afdc0, type: 3}
 --- !u!4 &1061508681 stripped
@@ -80992,6 +80992,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Vampire
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     - target: {fileID: -4216859302048453862, guid: cab412336e53377418aaa7a8a65afdc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -81062,11 +81067,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab412336e53377418aaa7a8a65afdc0, type: 3}
 --- !u!4 &1419728997 stripped
@@ -89629,9 +89629,9 @@ MonoBehaviour:
   m_IgnoreLayout: 0
   m_MinWidth: -1
   m_MinHeight: -1
-  m_PreferredWidth: 1150
+  m_PreferredWidth: 700
   m_PreferredHeight: 200
-  m_FlexibleWidth: 1
+  m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
 --- !u!114 &1702713906
@@ -89661,7 +89661,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 50
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -95465,6 +95465,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Vampire
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     - target: {fileID: -4216859302048453862, guid: cab412336e53377418aaa7a8a65afdc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -95535,11 +95540,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab412336e53377418aaa7a8a65afdc0, type: 3}
 --- !u!4 &1740989067 stripped
@@ -102467,6 +102467,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Vampire
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     - target: {fileID: -4216859302048453862, guid: cab412336e53377418aaa7a8a65afdc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -102537,11 +102542,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab412336e53377418aaa7a8a65afdc0, type: 3}
 --- !u!4 &1838616832 stripped
@@ -116001,10 +116001,15 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Vampire
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     - target: {fileID: -4216859302048453862, guid: cab412336e53377418aaa7a8a65afdc0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.16
+      value: -27.87
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: cab412336e53377418aaa7a8a65afdc0,
         type: 3}
@@ -116014,7 +116019,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: cab412336e53377418aaa7a8a65afdc0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 21.845
+      value: 34.21
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: cab412336e53377418aaa7a8a65afdc0,
         type: 3}
@@ -116071,11 +116076,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: cab412336e53377418aaa7a8a65afdc0,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 198653ac67fe982418c6fa6820b10960, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cab412336e53377418aaa7a8a65afdc0, type: 3}
 --- !u!4 &2098145875 stripped

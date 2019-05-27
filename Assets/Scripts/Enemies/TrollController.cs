@@ -11,6 +11,7 @@ public class TrollController : MonoBehaviour
     public SteamVR_Action_Vibration hapticAction;
 
     bool faraway = false;
+    public static bool endZone = false;
     int layer = 1;
     bool isDead = false;
 
@@ -50,7 +51,7 @@ public class TrollController : MonoBehaviour
     void OnTriggerEnter(Collider obj) {
 
         Debug.Log("Enemy collided: " + obj.gameObject.name);
-        if(!isDead) {
+        if(!isDead && !endZone) {
             if(obj.gameObject.name == "Blade Collider" || obj.gameObject.tag == "FivePointStar" || obj.gameObject.tag == "P" || obj.gameObject.tag == "Coin") {
 
                 //Deletes the troll body collider(Prevents from detecting the collision more than once)
@@ -61,6 +62,7 @@ public class TrollController : MonoBehaviour
                 this.gameObject.tag = "DeadEnemy";
                 
                 deathEnemies++;
+                EnemyManager.deadEnemies++;
 
                 _nav.isStopped = true;
                 isDead = true;
